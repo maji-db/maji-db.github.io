@@ -33,10 +33,10 @@
 
 	.modal-header {
 		width:880px;
+		height:68px;
 		border: 0px;
 		display: block;
 		padding: 4px 12px;
-		margin-bottom:-20px;
 		margin-left:25px;
 		margin-top:28px;
 		background-color: rgba(0,0,0,0.1);
@@ -633,7 +633,6 @@
 
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
-		display: inline;
 		overflow: hidden;
 		
 	}
@@ -641,8 +640,7 @@
 	.modal-header .unit-icon img {
 		width: 25%;
 		margin-top:15px;
-		display: inline;
-		vertical-align: middle;
+		float:left;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -668,17 +666,15 @@
 	
 	.modal-header h3 {
 		font-weight: 700;
-		vertical-align: 8px;
 		margin: 0; padding: 0;
 		font-size: 13px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 		margin-left: 0px;
-		line-height:16px;
+		line-height:15px;
 		word-wrap: normal;
-		display: inline;
+		float:left;
 		width:70%;
-		vertical-align: middle;
 	}
 	
 	.modal-header .close {
