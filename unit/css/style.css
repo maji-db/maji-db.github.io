@@ -498,7 +498,10 @@ table tbody.cards tr {
 	padding-bottom:8px;
 	outline: 1px solid #7C3462;
         outline-offset: -5px;
+	border-bottom:0px;
 }
+
+table tbody.cards tr:hover { border-bottom:0px; }
 
 table tbody.cards tr td {
 	color: #fff;
