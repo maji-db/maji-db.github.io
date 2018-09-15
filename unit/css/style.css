@@ -39,7 +39,7 @@ table {
 
 .dbheader {
 	width: 100%;
-	height: auto;
+	height: 550px;
 	background-position: absolute;
 	background-image: url(../img/db-headers.png);
 	background-size: 100%;
