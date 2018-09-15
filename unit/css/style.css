@@ -697,12 +697,13 @@ table tbody.cards tr td a {
 	outline: 1px #65224D solid;
 	outline-offset: -8px;
 	transition: all .3s ease;
-	padding: 2px 8px;
+	padding: 3px;
 	line-height: 12px;
 	margin: auto;
 }
 
 .base-menu ul li:hover {
+	width: 30%;
 	background: #65224D;
 	outline: 1px #AB2375 solid;
 	outline-offset: -8px;
