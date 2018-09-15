@@ -628,20 +628,20 @@
 	}
 
 	.modal-header .row {
-		width: 120%;
+		width: 150%;
 }	
 
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
 		overflow: hidden;
-		float:left;
+		display: inline;
 		
 	}
 
 	.modal-header .unit-icon img {
 		width: 25%;
 		margin-top:15px;
-		float:left;
+		display: inline;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -674,7 +674,7 @@
 		margin-left: 0px;
 		line-height:15px;
 		word-wrap: normal;
-		float:left;
+		display: inline;
 		width:70%;
 	}
 	
