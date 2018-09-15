@@ -640,7 +640,7 @@
 
 	.modal-header .unit-icon img {
 		width: 20%;
-		margin-top:18px;
+		margin-top:10px;
 		display: inline;
 	}
 	
@@ -673,10 +673,9 @@
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 		margin-left: 0px;
 		line-height:13px;
-		word-wrap: normal;
 		display: inline;
 		width:70%;
-		height:40px;
+		height:46px;
 	}
 	
 	.modal-header .close {
