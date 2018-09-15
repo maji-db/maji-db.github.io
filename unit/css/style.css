@@ -685,7 +685,7 @@ table tbody.cards tr td a {
 	margin:0; padding:0;
 	background-color: #AB2375;
 	height:43px;
-	margin-top:-220%;
+	margin-top:-330%;
 }
 	
 	.base-menu ul li {
@@ -734,7 +734,7 @@ table tbody.cards tr td a {
 	margin:auto;
 	padding-top:60px;
 	position: relative;
-	margin-left:-25%;
+	margin-left:-15%;
 	margin-bottom:-40px;
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
