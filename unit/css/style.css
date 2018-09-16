@@ -649,7 +649,7 @@ table tbody.cards tr td a {
 
 
 /* ------------------------------ RESOLUTION FIX: MOBILE ----------------------------- */
-@media screen and (max-width : 481px){
+@media (max-device-width:480px){
 
 	.base-header .discord {
 	width: 310px;
