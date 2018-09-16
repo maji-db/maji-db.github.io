@@ -751,7 +751,7 @@
 }  
 
 /* ------------------------------ TABLET VERSION ----------------------------- */
-@media only screen and (min-width : 551px){
+@media only screen and (max-width : 999px){
 	
 		.modal-header .unit-icon {
 		margin: 0; padding: 0;
@@ -761,18 +761,22 @@
 	}
 
 	.modal-header .unit-icon img {
-		width: 20%;
+		width: 50%;
 		margin-top:12px;
 		float:left;
 	}
 	
 	.modal-header h3 {
-		font-size:20px;
-		line-height:22px;
+		font-size:25px;
+		line-height:25px;
 		float:left;
 		vertical-align: -12px;
 		width:100%;
-		height:46px;
+		height:50px;
+	}
+	
+		.modal-body .base-unit-view .base-tables {
+		float:left;
 	}
 
 }
