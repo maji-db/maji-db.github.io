@@ -649,7 +649,7 @@ table tbody.cards tr td a {
 
 
 /* ------------------------------ RESOLUTION FIX: MOBILE ----------------------------- */
-@media screen and (max-width : 480px){
+@media screen and (max-width : 481px){
 
 	.base-header .discord {
 	width: 310px;
@@ -746,7 +746,7 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: SMALLER ----------------------------- */
 
-@media screen and (max-width : 1366px){
+@media screen and (max-width : 1367px){
 	
 	.base-menu {
 	margin:0; padding:0;
@@ -767,7 +767,7 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: BIGGER ----------------------------- */
 
-@media screen and (min-width : 1920px){
+@media screen and (min-width : 1921px){
 
 	.base-menu {
 	margin:0; padding:0;
@@ -788,7 +788,7 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: BIGGEST ----------------------------- */
 
-@media screen and (min-width : 2560px){
+@media screen and (min-width : 2561px){
 
 	.base-menu {
 	margin:0; padding:0;
