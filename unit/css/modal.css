@@ -748,3 +748,12 @@
 
 	
 }  
+
+/* ------------------------------ TABLET VERSION ----------------------------- */
+@media only screen and (max-width : 1000px){
+	
+	.modal-body .base-unit-view .base-tables {
+		width:60%;
+	}
+
+}
