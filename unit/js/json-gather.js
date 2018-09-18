@@ -141,6 +141,12 @@
 				$('#sp').text(window.chara[i]['sp']);
 				$('#def').text(window.chara[i]['def']);
 				$('#spd').text(window.chara[i]['spd']);
+				$('#maxpower').text(window.chara[i]['maxpower']); 
+				$('#maxhp').text(window.chara[i]['maxhp']);
+				$('#maxatk').text(window.chara[i]['maxatk']);
+				$('#maxsp').text(window.chara[i]['maxsp']);
+				$('#maxdef').text(window.chara[i]['maxdef']);
+				$('#maxspd').text(window.chara[i]['maxspd']);
 		 	}
 		}
 	}
