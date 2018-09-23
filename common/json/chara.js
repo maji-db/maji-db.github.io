@@ -121,7 +121,7 @@ window.chara=[
           "autoimg2": "STUNresist",
           "autoname3": "Great Wind Protection",
           "auto3": "80% chance to reduce one enemy's ATK Damage Resistance by 30%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> after using a special <hz>Chance:</hz> 50%",
-          "autoimg3": "ATKDMGresistdown";
+          "autoimg3": "ATKDMGresistdown",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg4": "DMGup",
@@ -250,7 +250,7 @@ window.chara=[
           "autoimg1": "POISONresist",
           "autoname2": "SP Damage Resistance (B)",
           "auto2": "Increases Resistance against SP Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
-          "autoimg2": "SPDMGresist";
+          "autoimg2": "SPDMGresist",
           "autoname3": "Seven Colored Youki",
           "auto3": "80% chance to Reduce an enemy's SP by 20%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 50%",
           "autoimg3": "SPdown",
