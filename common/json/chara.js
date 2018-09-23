@@ -42,8 +42,8 @@ window.chara=[
           "autoimg5": "DMGresist",
           "lead": "Heart Type DEF +15%",
           "rank": "G"
-      },
-      {
+            },
+            {
           "id": "10023",
           "name": "Rinku, Magical Child",
           "type": "yang",
@@ -173,7 +173,7 @@ window.chara=[
           "autoimg5": "DMGresist",
           "lead": "Body Type SP +15%",
           "rank": "G"
-      },
+},
       {
           "id": "10043",
           "name": "Shishiwakamaru, Beautiful White Blade",
@@ -244,9 +244,9 @@ window.chara=[
           "skill2": "Own column SP Damage Resistance +50% for 3 turns",
           "skill2cd":  "60",
           "autoname1": "Poison Resistance (B)",
-          "auto1": "Increases Resistance against Poison status by 100%",
+          "auto1": "Increases Resistance against Poison status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "POISONresist",
-          "autoname2": "SP Damage Resistance (B)"
+          "autoname2": "SP Damage Resistance (B)",
           "auto2": "Increases Resistance against SP Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoname3": "Seven Colored Youki",
           "auto3": "80% chance to Reduce an enemy's SP by 20%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 50%",
@@ -259,7 +259,7 @@ window.chara=[
           "autoimg5": "DMGresist",
           "lead": "Dex Type DEF +15%",
           "rank": "G"
-      },
+},
       {
           "id": "10045",
           "name": "Genkai, Extreme Polished Warrior",
@@ -478,7 +478,7 @@ window.chara=[
           "autoimg5": "DMGresist",
           "lead": "Dex Type SP +15%",
           "rank": "G"
-      },
+},
       {
           "id": "10051",
           "name": "Karasu, Beautiful Dark Evil",
@@ -549,7 +549,7 @@ window.chara=[
           "skill2name": "Tomahawk Ax",
           "skill2": "Deal 85% ATK to target row with a 80% chance to reduce ATK Damage Resistance by 25% for 3 turns",
           "skill2cd":  "100",
-          "autoname1": "ATK up (B)"
+          "autoname1": "ATK up (B)",
           "auto1": "Increases own ATK by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "ATKup",
           "autoname2": "Blind Resistance (B)",
@@ -683,13 +683,13 @@ window.chara=[
           "skill2cd":  "120",
           "autoname1": "Advantage Damage up (B)",
           "auto1": "Increases Damage against Advantage type by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
-          "autoimg1": "ADVDGMup",
+          "autoimg1": "ADVDMGup",
           "autoname2": "Poison Resistance (B)",
           "auto2": "Increases Resistance against Poison status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "POISONresist",
           "autoname3": "100% Wave",
           "auto3": "Increases own ATK by 100%<br><hz>Duration:</hz> 1 turn <hz>Condition:</hz> after defeating an enemy <hz>Chance:</hz> 50%",
-          "auto3img": "ATKup",
+          "autoimg3": "ATKup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg4": "DMGup",
@@ -698,7 +698,7 @@ window.chara=[
           "autoimg5": "DMGresist",
           "lead": "Yang Type SP +15%",
           "rank": "G"
-      },
+},
       {
           "id": "10127",
           "name": "Chu, Drunken Style Fighter",
@@ -742,5 +742,5 @@ window.chara=[
           "autoimg5": "DMGresist",
           "lead": "Yin Type SP +15%",
           "rank": "G"
-      },  
+}, 
 ] 
