@@ -281,6 +281,17 @@
 		background-color: #551C3F;
 		border-radius:5px;
 		padding:10px;
+		overflow-y: auto;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-skill .skill-icon {
+		float:left;
+		padding-right:10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
+		width:25vw;
+		max-width:120px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header {
@@ -291,7 +302,7 @@
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title {
 		flex: 3;
-		margin: 0 0 0 12px;
+		margin: 0px;
 		text-align:right;
 		display: inline;
 	}
@@ -337,25 +348,60 @@
 /* ----------- AUTO SKILL TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-ability {
-		margin: 0 0 12px 0;
+		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
 		border-radius:5px;
+		min-height:75px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description {
-		padding: 4px 12px;
+		padding: 10px;
+		text-align: left;
+		display:block;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-ability .asimg {
+		padding-right: 10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-ability .description img {
+		width:65px;
+		float: left;
+		padding-right: 10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
+		color: #FFF45C;
+		font-size: 20px;
+		font-weight: 700;
+		text-shadow:2px 2px #000;
+		vertical-align:top;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description p {
 		color: #fff;
 		font-size: 12px;
 		text-shadow:2px 2px #000;
+		vertical-align:top;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-ability .description p hz {
+		background-color: #8F619B;
+		padding:3px;
+		border-radius: 3px;
 	}
 
 /* ----------- STATS TAB ------------- */
 
-	.modal-body .base-unit-view .base-tables .base-ability .header {
+	.modal-body .base-unit-view .base-tables .base-stats {
+		margin: 0 0 12px 0;
+		border: 1px solid #78305B;
+		background-color: #551C3F;
+		border-radius:5px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-stats .header {
 		display: flex;
 		align-items: center;
 		padding: 0;
@@ -363,11 +409,11 @@
 		background-image: linear-gradient(to bottom, #ffd804, #fff601);
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .header.leader {
+	.modal-body .base-unit-view .base-tables .base-stats .header.leader {
 		background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .header .type h4 {
+	.modal-body .base-unit-view .base-tables .base-stats .header .type h4 {
 		position: relative;
 		color: #AB2375;
 		font-size: 12px;
@@ -376,7 +422,7 @@
 		background-color: #200B1A;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .header .type h4:after {
+	.modal-body .base-unit-view .base-tables .base-stats .header .type h4:after {
 		content: "";
 	    position: absolute;
 	    right: -12px; top: 0;
@@ -386,17 +432,17 @@
 	    border-bottom: 13px solid transparent;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .header .title {
+	.modal-body .base-unit-view .base-tables .base-stats .header .title {
 		flex: 3;
 		margin: 0 0 0 18px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .header .title h3 {
+	.modal-body .base-unit-view .base-tables .base-stats .header .title h3 {
 		font-size: 14px;
 		font-weight: 700;
 		color: #ffffff;
 		text-shadow: 0 0 4px #000000;
-	}
+}
 
 	.modal-body .base-unit-view .base-tables table {
 		cursor: context-menu;
