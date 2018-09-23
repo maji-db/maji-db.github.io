@@ -112,10 +112,12 @@
 				$('#icon-unit').attr('src', '../common/assets/thumb/ch_icon_' + id + '.png'); 
 				$('#name-unit').text(window.chara[i]['name']);
 
-				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png'); 
+				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png');
+				$('#skill1img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill1img'] + '.png');
 				$('#skill1name-five').text(window.chara[i]['skill1name']); 
 				$('#skill1-five').text(window.chara[i]['skill1']); 
-				$('#skill1cost-five').text(window.chara[i]['skill1cd']); 
+				$('#skill1cost-five').text(window.chara[i]['skill1cd']);
+				$('#skill2img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill2img'] + '.png');
 				$('#skill2name-five').text(window.chara[i]['skill2name']); 
 				$('#skill2-five').text(window.chara[i]['skill2']); 
 				$('#skill2cost-five').text(window.chara[i]['skill2cd']); 
@@ -123,11 +125,18 @@
 
 				var autoskill = '';
 				var auto = '';
-				for(var x = 1; x <= 5; x++){
-					auto = 'auto' + x;
+				var autoname = '';
+				var autoimg = '';
+				var x;
+				for (x = 1; x <= 5; x++){
+					 auto = 'auto' + x;
+                    			autoname = 'autoname' + x;
+                    			autoimg = 'autoimg' + x;
 					if(window.chara[i][auto] != ""){
-						autoskill += '<div class="base-ability">' 
+							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
+						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png"></div>'
+								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3>'
 								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
