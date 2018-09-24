@@ -81,6 +81,6 @@ window.support=[
           "maxdef": "3572",
           "maxspd": "468",
           "skillname": "",
-          "skill": "Recover 29% HP upon death once",
+          "skill": "80% chance to reduce the front enemy column by 43% for 3 turns",
      },
 ] 
