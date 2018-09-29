@@ -2079,7 +2079,7 @@ window.chara=[
       },
             {
           "id": "10014",
-          "name": "Shourin, Kenpou Family",
+          "name": "Shourin, Kenpou Style",
           "type": "heart",
           "class": "SP",
           "rare": "3",
@@ -2921,7 +2921,7 @@ window.chara=[
       },
           {
           "id": "10009",
-          "name": "Chinpou, Kenpou Family",
+          "name": "Chinpou, Kenpou Style",
           "type": "yang",
           "class": "SP",
           "rare": "2",
