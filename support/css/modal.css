@@ -1,0 +1,682 @@
+﻿.modal.fade .modal-dialog {
+		width: 960px;
+		height: 500px;
+		padding: 0px;
+		background-image: url('https://raw.githubusercontent.com/maji-db/maji-db.github.io/master/unit/img/boxbg.png');
+		filter: drop-shadow(0px 0px 10px #D0098F);
+		position:fixed;
+   		top: 50%;
+   		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+
+	.modal-content {
+		width:880px;
+	   	border: 0px;
+		margin-left:40px;
+		background: rgba(0, 0, 0, 0.001);
+	}
+
+	.modal-content h2,
+	.modal-content h3,
+	.modal-content h4,
+	.modal-content h5,
+	.modal-content p {
+	margin: 0; padding: 0;
+	}
+
+	.modal-backdrop.in {
+	background: rgba(0, 0, 0, 0.001);
+	}
+
+/* ----------- HEADER STUFF ------------- */
+
+	.modal-header {
+		width:880px;
+		height:68px;
+		border: 0px;
+		display: block;
+		padding: 4px 12px;
+		margin-left:25px;
+		margin-top:28px;
+		background-color: rgba(0,0,0,0.1);
+		border-bottom: 0px solid #cccccc;
+	}
+
+	#tablebg {
+		background-image: url('https://raw.githubusercontent.com/maji-db/maji-db.github.io/master/unit/img/modal-table.png');
+    		background-repeat: no-repeat;
+   		margin-left: -10px;
+		margin-top:0px;
+   		width: 830px;
+  		height: 60px;
+	}
+
+	.modal-header .row {
+		width: 100%;
+		margin-top:-60px;
+		margin-left:-10px;
+		margin-bottom:-30px;
+}	
+
+	.modal-header .unit-icon {
+		width: 58px;
+		margin: 0; padding: 0;
+		display: inline-block;
+		vertical-align: text-bottom;
+	}
+
+	.modal-header .unit-icon img {
+		width: 100%;
+	}
+
+	.modal-header .type {
+		display: inline-block;
+		margin: 8px 8px 0 0;
+		font-size: 12px;
+		font-weight: bold;
+		border-radius: 24px;
+		padding: 2px 12px;
+		color: #ffffff;
+	}
+	
+	.modal-header .type[type="技" i] {
+		background-color: #1a72bd;
+	}
+	.modal-header .type[type="心" i] {
+		background-color: #bd951a;
+	}
+	.modal-header .type[type="体" i]  {
+		background-color: #bd1a1a;
+	}
+	.modal-header .type[type="勇" i] {
+		color: #323232;
+		background-color: #efefef;
+	}
+	.modal-header .type[type="知" i] {
+		background-color: #323232;
+	}
+
+/* ----------- HEADER TITLE ------------- */
+
+	.modal-header h3 {
+		font-weight: 700;
+		display: inline-block;
+		vertical-align: 8px;
+		margin: 0; padding: 0;
+		font-size: 30px;
+		color: #fff;
+		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+	}
+
+	.modal-header .close {
+		opacity:1;
+		color: #AB2375;
+		outline: none;
+		margin: 25px 2px 0 0px;
+		text-shadow: 2px 2px #000;
+	}
+
+	.modal-header .close:hover {
+		text-shadow: 2px 2px #000;
+		color: #551C3F;
+		opacity:1;
+	}
+
+	.modal-body {
+		background-color: transparent;
+	    padding: 5px 12px 10px 12px;
+	}
+
+	.content-rarity {
+		width: 100%; height: 360px;
+		position: relative;
+	}
+
+	.content-rarity #five-star,
+	.content-rarity #six-star {
+		width: 100%;
+		position: absolute;
+		top: 0; left: 0;
+	}
+
+	.content-rarity #six-star {
+		opacity: 0;
+		pointer-events: none;
+		transition: all .4s ease;
+	}
+
+	.content-rarity #six-star.six-star-active {
+		opacity: 1;
+		pointer-events: all;
+	}
+
+	.modal-body .base-unit-view {
+		position: relative;
+	}
+
+	.modal-body .base-unit-view .base-toggle {
+		cursor: pointer;
+		position: absolute;
+		top: 24px; left: -12px;
+		margin: 0; padding: 0;
+		z-index: 2;
+	}
+
+	.modal-body .base-unit-view .base-toggle a.toggle-rarity {
+		display: block;
+		padding: 0 0 0 0;
+		text-align: center;
+		opacity: 1;
+		width: 60px; height: 44px;
+		background-image: url(../unit/img/trigger.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+
+	.modal-body .base-unit-view .base-toggle a.toggle-rarity.toggle-six {
+		background-image: url(../unit/img/trigger-two.png);
+	}
+
+/* ----------- IMG PNG ------------- */
+
+	.modal-body .base-unit-view .img-unit {
+		width: 250px;
+		height: 370px;
+		border: 1px solid #AB2375;
+		outline: 3px solid #000;
+		background-color: #000;
+		position: relative;
+		overflow: hidden;
+		margin-left:20px;
+	}
+
+	.modal-body .base-unit-view .img-unit img {
+		position: absolute;
+  		width:1000px;
+ 		top: -316px;
+ 		left: -376px;
+ 		margin: auto;
+		opacity: 50%;
+	}
+
+	.modal-body .base-unit-view .base-tables {
+		height: 363px;
+		margin-left:-15px;
+		margin-top: -20px;
+		border: 0px solid #efdbac;
+		background-color: transparent;
+		box-shadow: 0 0 0px 0px #c7a664;
+	}
+
+/* ----------- TABLES CONTENT ------------- */
+
+	.modal-body .base-unit-view .base-tables .tab-content {
+		overflow-y: auto;
+		background-color: #000;
+		border-top: 5px solid #AB2375;
+		border-left: 1px solid #616161;
+		border-right: 1px solid #616161;
+		border-bottom: 1px solid #616161;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		margin-top:-10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content h2 {
+		text-align: center;
+		color: #C585D5;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+
+/* ----------- CONTENT TITLE ------------- */
+
+	.modal-body .base-unit-view .base-tables h1 {
+		color: #fff;
+		display: table;
+		font-size: 25px;
+		font-weight:bold;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 5px 25px;
+		text-shadow:2px 2px #000;
+		border: 2px solid #AB2375;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
+	}
+
+	.modal-body .base-unit-view .base-tables ul.nav {
+		display: flex;
+		justify-content: space-around;
+		border-bottom: 5px solid #AB2375;
+		text-align: center;
+	}
+
+	.modal-body .base-unit-view .base-tables ul.nav li {
+		flex: 1;
+		display:inline;
+	}
+
+	.modal-body .base-unit-view .base-tables ul.nav li.left {
+		padding-left: 10px;
+	}
+
+	.modal-body .base-unit-view .base-tables ul.nav li a,
+	.modal-body .base-unit-view .base-tables ul.nav li a:focus {
+		color: #C585D5;
+		display: block;
+		font-size: 14px;
+		border-top: 2px solid #3F3F3F;
+		border-left: 2px solid #3F3F3F;
+		border-right: 2px solid #3F3F3F;
+		border-bottom: 2px solid transparent;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-color: #040404;
+	}
+
+	.modal-body .base-unit-view .base-tables ul.nav li.active a,
+	.modal-body .base-unit-view .base-tables ul.nav li.active a:focus {
+		color: #fff;
+		font-weight: bold;
+		text-shadow:2px 2px #000;
+		border: 2px solid #AB2375;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
+	}
+
+
+
+	.modal-body .base-unit-view .base-tables .tab-content {
+		padding: 5px;
+	}
+
+/* ----------- AUTO SKILL TAB ------------- */
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability {
+		margin: 0;
+		border: 1px solid #78305B;
+		background-color: #551C3F;
+		border-radius:5px;
+		min-height:75px;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description {
+		padding: 10px;
+		text-align: left;
+		display:block;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .asimg {
+		padding-right: 10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description img {
+		width:65px;
+		float: left;
+		padding-right: 10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description h3 {
+		color: #FFF45C;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform:uppercase;
+		text-shadow:2px 2px #000;
+		vertical-align:top;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description p {
+		color: #fff;
+		font-size: 12px;
+		text-shadow:2px 2px #000;
+		vertical-align:top;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description p hz {
+		background-color: #8F619B;
+		padding:3px;
+		border-radius: 3px;
+	}
+
+/* ----------- STATS TAB ------------- */
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats {
+		margin: 0px;
+		border: 1px solid #78305B;
+		background-color: #551C3F;
+		border-radius:5px;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .title {
+		color: #C585D5;
+		font-weight:bold;
+		text-align:center;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats td {
+		text-align:center;
+		width: 15%;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats table {
+		text-align:center;
+		cursor: default;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
+		color: #FFF45C;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform:uppercase;
+		text-shadow:2px 2px #000;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats .pg {
+		font-weight: 700;
+		font-size: 20px;
+		color: #fff;
+		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+	}
+
+
+/* ----------- CHARA LINK TAB ------------- */
+
+	.modal-body .base-unit-view .base-tables .base-gear {
+		display: flex;
+		margin: 0 0 10px 0;
+		border: 1px solid #847d58;
+		outline: 2px solid #c5b080;
+		box-shadow: 0 0 0 1px #847d58;
+		background: linear-gradient(to bottom, #ffffff, #ffffe6);
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear:last-child {
+		margin: 0;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .icon {
+		flex: 1;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    border: 1px solid #847d58;
+		outline: 2px solid #c5b080;
+		box-shadow: 0 0 0 1px #847d58;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .icon img {
+		width: 90%;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info {
+		flex: 8;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header {
+		flex: 3;
+		display: flex;
+		align-items: center;
+		border-radius: 8px 0 0 8px;
+		background-color: #3c2401;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="スキル強化" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #FFFF66;
+		text-shadow: 0 0 4px #000000;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="ステータス強化" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #CC0000;
+		text-shadow: 0 0 4px #000000;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="耐性付加" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #660000;
+		text-shadow: 0 0 4px #000000;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="忍飯" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #7F7FFF;
+		text-shadow: 0 0 4px #000000;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="チャクラ" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #CCE6FF;
+		text-shadow: 0 0 4px #000000;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="勲章" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #501078;
+		text-shadow: 0 0 4px #000000;
+	}
+	
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .type h4[type="追加効果" i] {
+		flex: 1;
+		color: #ffffff;
+		font-size: 12px;
+		border-radius: 8px;
+		margin: 0 8px 0 4px; padding: 2px 8px;
+		background-color: #FFC04C;
+		text-shadow: 0 0 4px #000000;
+	}
+	.modal-body .base-unit-view .base-tables .base-gear .info .header .title h3 {
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0; padding: 6px 0;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-gear .info .description p {
+		display: block;
+		font-size: 12px;
+		padding: 6px 12px 6px 6px;
+}
+
+
+/* ------------------------------ MOBILE VERSION ----------------------------- */
+@media only screen and (max-width : 999px){
+ 
+	.modal.fade .modal-dialog {
+		width: 100%;
+		height: 100%;
+		padding: 5px;
+		position:absolute;
+		background-color:#000;
+		background-image: none;
+		filter: drop-shadow(0px 0px 10px #D0098F);
+	}
+	
+	.modal-content {
+		width:100%;
+		margin-left:0px;
+		margin-top:0px;
+	}
+	
+	.modal-header {
+		width:100%;
+		border: 0px;
+		display: block;
+		padding: 0px;
+		margin-left:0px;
+		margin-top:15px;
+	}
+
+	#tablebg {
+		background: linear-gradient(to bottom, #000, #551C3F);
+    		background-repeat: no-repeat;
+		margin-top:0px;
+		margin-left:0px;
+   		width: 85%;
+		height:30px;
+	}
+
+	.modal-header .row {
+		width: 150%;
+}	
+
+	.modal-header .unit-icon {
+		margin: 0; padding: 0;
+		overflow: hidden;
+		display: inline;
+		
+	}
+
+	.modal-header .unit-icon img {
+		width: 40px;
+		margin-top:12px;
+		display: inline;
+	}
+	
+	.modal-body .base-unit-view .img-unit {
+		width: 90%;
+		height: 30vh;
+		border: 1px solid #AB2375;
+		outline: 2px solid #000;
+		background-color: #000;
+		margin-top:-7%;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.modal-body .base-unit-view .img-unit img {
+		position: absolute;
+  		width:1000px;
+ 		top: -316px;
+ 		left: -376px;
+ 		margin: auto;
+		opacity: 50%;
+		vertical-align: middle;
+	}
+	
+	.modal-header h3 {
+		font-weight: 700;
+		font-size: 4vw;
+		color: #fff;
+		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+		margin-top: 0px;
+		line-height:13px;
+		display: inline-block;
+		vertical-align: -15px;
+		width:70%;
+		height:46px;
+	}
+	
+	.modal-header .close {
+		opacity:1;
+		color: #AB2375;
+		position:fixed;
+		top: 15px;
+		right: 15px;
+		text-shadow: 2px 2px #000;
+	}
+
+	.modal-header .close:hover {
+		text-shadow: 2px 2px #000;
+		color: #551C3F;
+		opacity:1;
+	}
+
+	.modal-body .base-unit-view .base-tables {
+		margin-top:10px;
+		width:105%;
+		height: 50%;
+		padding:5px;
+		border: 0px solid #efdbac;
+		background-color: transparent;
+		box-shadow: 0 0 0px 0px #c7a664;
+	}
+	
+	.modal-body .base-unit-view .base-tables .tab-content {
+		overflow-y: auto;
+		background-color: #000;
+		border-top: 1px solid #transparent;
+		border-left: 1px solid #616161;
+		border-right: 1px solid #616161;
+		border-bottom: 1px solid #616161;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	
+	.modal-body .base-unit-view .base-tables ul.nav li.left {
+		padding-left: 3px;
+	}
+	
+	.modal-body .base-unit-view .base-tables ul.nav li a,
+	.modal-body .base-unit-view .base-tables ul.nav li a:focus {
+		color: #C585D5;
+		display: block;
+		font-size: 9px;
+		border-top: 2px solid #3F3F3F;
+		border-left: 2px solid #3F3F3F;
+		border-right: 2px solid #3F3F3F;
+		border-bottom: 2px solid transparent;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-color: #040404;
+		line-height:5px;
+		word-wrap: normal;
+	}
+	
+	.modal-body .base-unit-view .base-tables ul.nav li.active a,
+	.modal-body .base-unit-view .base-tables ul.nav li.active a:focus {
+		color: #fff;
+		font-weight: normal;
+		text-shadow:2px 2px #000;
+		border: 2px solid #AB2375;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
+	}
+	
+		.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
+		color: #FFF45C;
+		font-size: 3vw;
+		font-weight: 700;
+		text-transform:uppercase;
+		text-shadow:2px 2px #000;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats .pg {
+		font-weight: 700;
+		font-size: 3vw;
+		color: #fff;
+		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+	}
+
+
+	
+} 
