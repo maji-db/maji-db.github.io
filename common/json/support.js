@@ -376,7 +376,7 @@ window.support=[
           "maxspd": "-",
           "skillname": "SP Damage Resistance Down",
           "skill": "80% chance of decreasing target's resistance against SP damage taken by 21%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 64%",
-          "skillimg": "SPDMGresistdown",
+          "skillimg": "SPDMGresist",
      },
      
      {
