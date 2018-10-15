@@ -261,7 +261,7 @@ window.support=[
      },
      
      {
-          "id": "120094",
+          "id": "20094",
           "name": "Botan, Amulet Costume",
           "type": "dex",
           "class": "DEF",
