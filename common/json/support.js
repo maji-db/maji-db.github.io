@@ -260,6 +260,29 @@ window.support=[
           "skillimg": "ATKDMGresist",
      },
      
+     {
+          "id": "120094",
+          "name": "Botan, Amulet Costume",
+          "type": "dex",
+          "class": "DEF",
+          "rare": "4",
+          "power": "411",
+          "hp": "220",
+          "atk": "120",
+          "def": "130",
+          "sp": "40",
+          "spd": "112",
+          "maxpower": "4141",
+          "maxhp": "2256",
+          "maxatk": "1230",
+          "maxdef": "1332",
+          "maxsp": "411",
+          "maxspd": "404",
+          "skillname": "Defense up",
+          "skill": "Increases DEF of equipped row by 40%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 90%",
+          "skillimg": "DEFup",
+     },
+     
             // -------------------------------------------------------------------------------- 
                                               // 3 STAR CARDS
             // -------------------------------------------------------------------------------- 
