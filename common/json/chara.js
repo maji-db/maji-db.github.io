@@ -752,19 +752,18 @@ window.chara=[
           "rank": "G"
       },
   
-  /* UPCOMING SUZAKU
       {
           "id": "10059",
           "name": "Suzaku, Seven Prison Thunder God",
           "type": "heart",
           "class": "SP",
           "rare": "5",
-          "power": "-",
-          "hp": "-",
-          "atk": "-",
-          "sp": "-",
-          "def": "-",
-          "spd": "-",
+          "power": "1033",
+          "hp": "512",
+          "atk": "102",
+          "def": "256",
+          "sp": "410",
+          "spd": "95",
           "maxpower": "14649",
           "maxhp": "7308",
           "maxatk": "1452",
@@ -773,12 +772,12 @@ window.chara=[
           "maxspd": "372",
           "skill1img": "100041",
           "skill1name": "Prism of Seven",
-          "skill1": "Skill Description",
-          "skill1cd":  "100",
+          "skill1": "Casts Guard effect to own column for 1 turn",
+          "skill1cd":  "60",
           "skill2img": "100042",
           "skill2name": "Prism Storm of Torment",
-          "skill2": "Skill Description",
-          "skill2cd":  "120",
+          "skill2": "Deal 90% SP damage to back row. 50% chance to paralyze the targets for 1 turn if they're SP type",
+          "skill2cd":  "98",
           "autoname1": "Sp Up (B)",
           "auto1": "Increases own SP by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "SPup",
@@ -786,7 +785,7 @@ window.chara=[
           "auto2": "Increases Resistance against Paralyze status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "PARAresist",
           "autoname3": "Roaring Thunder of Destruction",
-          "auto3": "100% chance to paralyze the target<br><hz>Duration:</hz> 1 turn <hz>Condition:</hz> after defeating an enemy <hz>Chance:</hz> 50%",
+          "auto3": "30% chance to paralyze all enemies<br><hz>Duration:</hz> 1 turn <hz>Condition:</hz> upon death <hz>Chance:</hz> 100%/1 time",
           "autoimg3": "PARAchance",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
@@ -798,8 +797,7 @@ window.chara=[
           "rank": "G"
       },
       
-      */
-  
+ 
       {
           "id": "10127",
           "name": "Chu, Drunken Style Fighter",
