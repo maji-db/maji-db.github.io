@@ -49,19 +49,18 @@ window.support=[
           "skillimg": "SPup",
      },
      
-       /* UPCOMING ENMA
      {
           "id": "20013",
           "name": "Great King Enma, Spirit World Ruler",
           "type": "yin",
           "class": "ATK",
           "rare": "5",
-          "power": "-",
-          "hp": "-",
-          "atk": "-",
-          "sp": "-",
-          "def": "-",
-          "spd": "-",
+          "power": "1011",
+          "hp": "500",
+          "atk": "400",
+          "def": "250",
+          "sp": "100",
+          "spd": "111",
           "maxpower": "14323",
           "maxhp": "7140",
           "maxatk": "5712",
@@ -72,7 +71,6 @@ window.support=[
           "skill": "Increases ATK of equipped column by 24%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> start of the WAVE <hz>Chance:</hz> 100%",
           "skillimg": "ATKup",
      },
-       */
      
      {
           "id": "20016",
