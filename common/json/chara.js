@@ -909,7 +909,7 @@ window.chara=[
           "skill1img": "100435",
           "skill1name": "Protective Solid Wall",
           "skill1": "All allies +36% SP Damage Resistence for 2 turns. +36% DEF for 2 turns",
-          "skill1cd":  "60,
+          "skill1cd":  "60",
           "skill2img": "100436",
           "skill2name": "Heavenly Flash Kick Dance",
           "skill2": "Deal 128% ATK to one enemy. 80% chance to reduce target's ATK Damage Resistance by 36% for 3 turns",
