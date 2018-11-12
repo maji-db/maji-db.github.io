@@ -846,7 +846,7 @@ window.chara=[
   /* New Yuusuke
       {
           "id": "10146",
-          "name": "Yusuke Urameshi, xx",
+          "name": "Yusuke Urameshi, Sleeping Lion",
           "type": "dex",
           "class": "ATK",
           "rare": "5",
