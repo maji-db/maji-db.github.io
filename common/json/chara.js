@@ -1977,7 +1977,7 @@ window.chara=[
           "skill1cd":  "100",
           "skill2img": "100160",
           "skill2name": "Fissure Kick Violet Blaze Shots",
-          "skill2": "Deal 110% ATK to front row",
+          "skill2": "Deal 110% ATK to front column",
           "skill2cd":  "100",
           "autoname1": "Body Type Resistance (M)",
           "auto1": "Increases Resistance against Body Type Damage by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
