@@ -1983,7 +1983,7 @@ window.chara=[
           "auto1": "Increases Resistance against Body Type Damage by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "BODYdmg",
           "autoname2": "Burn Resistance (B)",
-          "auto2": "Increases Resistance against Burn Status by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
+          "auto2": "Increases Resistance against Burn Status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "BURNresist",
           "autoname3": "",
           "auto3": "",
