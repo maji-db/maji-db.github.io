@@ -97,7 +97,7 @@ window.support=[
      /* Koto
      {
           "id": "20019",
-          "name": "Koto, Enthusiatic Live Broadcaster",
+          "name": "Koto, Fiery Commentary",
           "type": "body",
           "class": "SP",
           "rare": "5",
@@ -107,15 +107,15 @@ window.support=[
           "def": "-",
           "sp": "-",
           "spd": "-",
-          "maxpower": "-",
-          "maxhp": "-",
-          "maxatk": "-",
-          "maxsp": "-",
-          "maxdef": "-",
-          "maxspd": "-",
-          "skillname": "Defense Down",
-          "skill": "Decreases DEF of front enemy column by 43%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a status decrease <hz>Chance:</hz> 80%",
-          "skillimg": "DEFdown",
+          "maxpower": "14217",
+          "maxhp": "7068",
+          "maxatk": "1452",
+          "maxsp": "3596",
+          "maxdef": "5592",
+          "maxspd": "434",
+          "skillname": "SP Damage Resistance Down",
+          "skill": "80% chance of decreasing target's resistance against SP damage taken by 21%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a status decrease <hz>Chance:</hz> 80%",
+          "skillimg": "SPDMG",
      },
      */
      {
