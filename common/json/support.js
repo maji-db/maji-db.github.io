@@ -135,7 +135,7 @@ window.support=[
           "maxdef": "5592",
           "maxspd": "434",
           "skillname": "SP Damage Resistance Down",
-          "skill": "80% chance of decreasing enemy's front column's resistance against SP damage by 33%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 80%",
+          "skill": "80% chance of decreasing enemy's front column's SP damage resistance by 33%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 80%",
           "skillimg": "SPDMG",
      },
      {
