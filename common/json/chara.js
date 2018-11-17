@@ -843,19 +843,18 @@ window.chara=[
           "rank": "G"
 }, 
   
-  /* New Yuusuke
       {
           "id": "10146",
           "name": "Yusuke Urameshi, Sleeping Lion",
           "type": "dex",
           "class": "ATK",
           "rare": "5",
-          "power": "-",
-          "hp": "-",
-          "atk": "-",
-          "def": "-",
-          "sp": "-",
-          "spd": "-",
+          "power": "1034",
+          "hp": "408",
+          "atk": "544",
+          "def": "179",
+          "sp": "100",
+          "spd": "72",
           "maxpower": "14688",
           "maxhp": "5828",
           "maxatk": "7764",
@@ -889,7 +888,6 @@ window.chara=[
           "rank": "G"
       },
   
-  */
       {
           "id": "10149",
           "name": "Kazuma Kuwabara, Love Invigoration",
