@@ -94,19 +94,18 @@ window.support=[
           "skill": "Heals equipped unit's HP by 43%<br><hz>Duration:</hz> instant <hz>Condition:</hz> when HP is under 30% <hz>Chance:</hz> 100%",
           "skillimg": "HEAL",
      },
-     /* Koto
      {
           "id": "20019",
           "name": "Koto, Fiery Commentary",
           "type": "body",
           "class": "SP",
           "rare": "5",
-          "power": "-",
-          "hp": "-",
-          "atk": "-",
-          "def": "-",
-          "sp": "-",
-          "spd": "-",
+          "power": "1005",
+          "hp": "495",
+          "atk": "102",
+          "def": "252",
+          "sp": "392",
+          "spd": "117",
           "maxpower": "14217",
           "maxhp": "7068",
           "maxatk": "1452",
@@ -117,7 +116,6 @@ window.support=[
           "skill": "80% chance of decreasing enemy's front column's resistance against SP damage by 33%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 80%",
           "skillimg": "SPDMG",
      },
-     */
      {
           "id": "20019",
           "name": "Sakyo, A Game of Aesthetics",
