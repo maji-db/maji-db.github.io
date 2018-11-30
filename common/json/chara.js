@@ -62,7 +62,7 @@ window.chara=[
           "spd": "123",
           "maxpower": "14665",
           "maxhp": "7320",
-          "maxatk": "58521",
+          "maxatk": "5852",
           "maxsp": "1452",
           "maxdef": "3656",
           "maxspd": "454",
