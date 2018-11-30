@@ -1000,7 +1000,7 @@ window.chara=[
           "skill1": "Deal 218% ATK to one enemy. If the target is a DEF class, 90% chance to inflict 10% Burn for 2 turns",
           "skill1cd":  "94",
           "skill2img": "100440",
-          "skill2name": "Absorved Black Dragon's Attack",
+          "skill2name": "Absorbed Black Dragon's Attack",
           "skill2": "Deal 180% ATK to target row with 60% chance to silence for 1 turn",
           "skill2cd":  "114",
           "autoname1": "Yang Damage Resistance (B)",
