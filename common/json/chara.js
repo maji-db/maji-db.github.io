@@ -1009,7 +1009,7 @@ window.chara=[
           "autoname2": "Silence Resistance (B)",
           "auto2": "Increases Resistance against Silence status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "SILENCEresist",
-          "autoname3": "The one who mastered it",
+          "autoname3": "The One Who Mastered",
           "auto3": "Increases critical rate of own row by 35%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> start of the WAVE <hz>Chance:</hz> 100%",
           "autoimg3": "CRITup",
           "autoname4": "Damage up (B)",
