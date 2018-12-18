@@ -160,7 +160,6 @@ window.support=[
           "skill": "Revives equipped unit with 29% HP<br><hz>Duration:</hz> instant <hz>Condition:</hz> upon death <hz>Chance:</hz> 100%/1 time",
           "skillimg": "REVIVE",
      },
-/*
      {
           "id": "20095",
           "name": "Keiko Yukimura, Holy Night Lovely Lady",
@@ -205,7 +204,6 @@ window.support=[
           "skill": "Heals own column by 20%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
           "skillimg": "HEAL",
      },
-     */
      
             // -------------------------------------------------------------------------------- 
                                               // 4 STAR CARDS
@@ -348,13 +346,12 @@ window.support=[
           "skill": "Increases DEF of equipped row by 40%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 90%",
           "skillimg": "DEFup",
      },
-     /*
      {
           "id": "20097",
           "name": "Ruka, Holy Night Charming Lady",
           "type": "yin",
           "class": "DEF",
-          "rare": "5",
+          "rare": "4",
           "power": "411",
           "hp": "224",
           "atk": "40",
@@ -371,7 +368,6 @@ window.support=[
           "skill": "Increases guard percentage of own row by 17%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 90%",
           "skillimg": "GUARDup",
      },
-     */
      
             // -------------------------------------------------------------------------------- 
                                               // 3 STAR CARDS
