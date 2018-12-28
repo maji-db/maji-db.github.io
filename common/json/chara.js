@@ -845,7 +845,7 @@ window.chara=[
 
 TOGURO NEW CARD
       {
-          "id": "10068",
+          "id": "10126",
           "name": "Younger Toguro, Complete Destruction Rise",
           "type": "yin",
           "class": "ATK",
