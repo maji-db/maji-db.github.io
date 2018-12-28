@@ -445,7 +445,7 @@ window.chara=[
       },
           {
           "id": "10049",
-          "name": "Yoko Kurama, Silver Hair Fear",
+          "name": "Youko Kurama, Silver Hair Fear",
           "type": "yang",
           "class": "SP",
           "rare": "5",
@@ -1454,7 +1454,7 @@ TOGURO NEW CARD
           "skill2cd":  "100",
           "autoname1": "Yin Damage up (M)",
           "auto1": "Increases own Yin damage by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
-          "autoimg1": "YINDMGup",
+          "autoimg1": "YINDMG",
           "autoname2": "Stun Resistance (B)",
           "auto2": "Increases Resistance against Stun Status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "STUNresist",
