@@ -876,7 +876,7 @@ window.chara=[
           "autoimg2": "STUNresist",
           "autoname3": "Destrutive Strength That Abandons Everything",
           "auto3": "Increases own ATK by 50% and own DEF by 30%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when an ally dies <hz>Chance:</hz> 100%",
-          "autoimg3": "PARAchance",
+          "autoimg3": "ATKup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg4": "DMGup",
