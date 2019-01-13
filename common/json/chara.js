@@ -2239,7 +2239,7 @@ window.chara=[
           "maxspd": "268",
           "skill1img": "100467",
           "skill1name": "Steel Piercing Blade of Thin Leaf",
-          "skill1": "Deal 170% ATK to one enemy",
+          "skill1": "Deal 255% ATK to one enemy",
           "skill1cd":  "100",
           "skill2img": "100468",
           "skill2name": "Attractive Flower Scent Wind",
