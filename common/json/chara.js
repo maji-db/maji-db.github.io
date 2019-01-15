@@ -1005,7 +1005,7 @@ window.chara=[
           "skill2cd":  "98",
           "autoname1": "Body Damage up (B)",
           "auto1": "Increases own Body Type Damage by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
-          "autoimg1": "ATKup",
+          "autoimg1": "BODYdmg",
           "autoname2": "Silence Resistance (B)",
           "auto2": "Increases Resistance against Silence status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "SILENCEresist",
