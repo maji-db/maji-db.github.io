@@ -224,7 +224,7 @@ window.support=[
           "maxspd": "438",
           "skillname": "HP Regeneration",
           "skill": "Heals own column by 20%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
-          "skillimg": "HEAL",
+          "skillimg": "REGEN",
      },
      
             // -------------------------------------------------------------------------------- 
