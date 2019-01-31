@@ -1144,7 +1144,7 @@ window.chara=[
           "auto2": "Increases Resistance against Poison status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "POISONresist",
           "autoname3": "Demon Flower Using Hand",
-          "auto3": "Increases own ATK by 50%. 100% chance to reduce enemy front row's poison resistance by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when has a status effect <hz>Chance:</hz> 100%",
+          "auto3": "Increases own ATK by 50%. Reduces enemy front row's poison resist by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when has a status effect <hz>Chance:</hz> 100%",
           "autoimg3": "ATKup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
