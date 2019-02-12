@@ -2333,7 +2333,7 @@ window.chara=[
           "skill2cd":  "100",
           "autoname1": "Heart Damage up (M)",
           "auto1": "Increases own Heart Damage by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
-          "autoimg1": "BODYdmg",
+          "autoimg1": "HEARTdmg",
           "autoname2": "Blind Resistance (B)",
           "auto2": "Increases Resistance against Blind Status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "BLINDresist",
