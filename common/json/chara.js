@@ -1045,7 +1045,7 @@ window.chara=[
           "skill1cd":  "108",
           "skill2img": "100432",
           "skill2name": "Spirit Gun: Rapid Fire",
-          "skill2": "Deal 195% ATK to target row with 90% chance to increase damage taken by 43% for 2 turns. Leader Skill: ATK class ATK +15%",
+          "skill2": "Deal 195% ATK to target row with 90% chance to increase damage taken by 43% for 2 turns.",
           "skill2cd":  "120",
           "autoname1": "Body Damage up (B)",
           "auto1": "Increases own Body Type Damage by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
