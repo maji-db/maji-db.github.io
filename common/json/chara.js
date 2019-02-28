@@ -1821,7 +1821,7 @@ window.chara=[
       },
             {
           "id": "10026",
-          "name": "Chu, Demon Alchemist",
+          "name": "Chuu, Demon Alchemist",
           "type": "body",
           "class": "DEF",
           "rare": "4",
