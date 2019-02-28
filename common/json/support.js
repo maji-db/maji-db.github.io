@@ -248,6 +248,28 @@ window.support=[
           "skill": "Heals own column by 20%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
           "skillimg": "REGEN",
      },
+     {
+          "id": "20114",
+          "name": "Yusuke & Kuwabara, Battle Comrades",
+          "type": "body",
+          "class": "ATK",
+          "rare": "5",
+          "power": "1024",
+          "hp": "508",
+          "atk": "407",
+          "def": "251",
+          "sp": "101",
+          "spd": "118",
+          "maxpower": "14503",
+          "maxhp": "7256",
+          "maxatk": "5808",
+          "maxdef": "3584",
+          "maxsp": "1440",
+          "maxspd": "438",
+          "skillname": "Damage Reduction",
+          "skill": "Reduces Taken Damage from own column by 19%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
+          "skillimg": "DMGresist",
+     },
      
             // -------------------------------------------------------------------------------- 
                                               // 4 STAR CARDS
