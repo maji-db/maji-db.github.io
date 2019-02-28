@@ -1420,7 +1420,7 @@ window.chara=[
           "rank": "G"
 },
   {
-          "id": "10174",
+          "id": "10175",
           "name": "Chuu, Furious Piercing Iron Head",
           "type": "heart",
           "class": "DEF",
