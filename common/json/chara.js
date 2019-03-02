@@ -1000,7 +1000,7 @@ window.chara=[
           "skill1cd":  "60",
           "skill2img": "100428",
           "skill2name": "Iron Fist Burst",
-          "skill2": "Deal 128% ATK to front column. If there's 3 or more ATK class allies, 60% chance to stun for 1 turn",
+          "skill2": "Deal 128% ATK to front column. If there's 3 or more ATK class allies in your team (including this unit), 60% chance to stun for 1 turn",
           "skill2cd":  "100",
           "autoname1": "Advantage Damage up (B)",
           "auto1": "Increases Damage against weaker attribute by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
