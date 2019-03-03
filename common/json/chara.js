@@ -211,6 +211,7 @@ window.chara=[
           "autoimg1": "CRITup",
           "autoname2": "Blind Resistance (B)",
           "auto2": "Increases Resistance against Blind status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
+          "autoimg2": "BLINDresist",
           "autoname3": "Evil Sword's Dance",
           "auto3": "Increases own ATK by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
           "autoimg3": "ATKup",
