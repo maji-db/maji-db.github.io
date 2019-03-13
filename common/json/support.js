@@ -271,6 +271,53 @@ window.support=[
           "skillimg": "DMGresist",
      },
      
+     /*
+     {
+          "id": "20114",
+          "name": "Maya Kitajima, Faint Love Concept",
+          "type": "yang",
+          "class": "DEF",
+          "rare": "5",
+          "power": "-",
+          "hp": "-",
+          "atk": "-",
+          "def": "-",
+          "sp": "-",
+          "spd": "-",
+          "maxpower": "-",
+          "maxhp": "-",
+          "maxatk": "-",
+          "maxdef": "-",
+          "maxsp": "-",
+          "maxspd": "-",
+          "skillname": "DEFENSE up",
+          "skill": "Increases DEF of equipped row by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
+          "skillimg": "DEFup",
+     },
+     {
+          "id": "20114",
+          "name": "Kurama & Hiei, Shadow Flower",
+          "type": "heart",
+          "class": "SP",
+          "rare": "5",
+          "power": "-",
+          "hp": "-",
+          "atk": "-",
+          "def": "-",
+          "sp": "-",
+          "spd": "-",
+          "maxpower": "-",
+          "maxhp": "-",
+          "maxatk": "-",
+          "maxdef": "-",
+          "maxsp": "-",
+          "maxspd": "-",
+          "skillname": "DAmage up",
+          "skill": "Increases Damage given of equipped column by 19%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
+          "skillimg": "DMGup",
+     },
+*/
+     
             // -------------------------------------------------------------------------------- 
                                               // 4 STAR CARDS
             // -------------------------------------------------------------------------------- 
