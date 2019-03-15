@@ -1499,7 +1499,7 @@ window.chara=[
           "autoimg2": "PARAresist",
           "autoname3": "Destroying Gale",
           "auto3": "80% Chance to reduce enemy front row's SP Damage Resistance by 35%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 100%",
-          "autoimg3": "DMGresist",
+          "autoimg3": "SPDMGresistdown",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg4": "DMGup",
