@@ -712,6 +712,28 @@ window.support=[
           "skill": "Increases equipped unit's Damage given by 28%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> when HP is under 50% <hz>Chance:</hz> 80%",
           "skillimg": "DMGup",
      },
+     {
+          "id": "20144",
+          "name": "Beautiful Suzuki, Rainbow-Colored Legend",
+          "type": "dex",
+          "class": "SP",
+          "rare": "3",
+          "power": "373",
+          "hp": "182",
+          "atk": "36",
+          "def": "90",
+          "sp": "145",
+          "spd": "117",
+          "maxpower": "-",
+          "maxhp": "-",
+          "maxatk": "-",
+          "maxdef": "-",
+          "maxsp": "-",
+          "maxspd": "-",
+          "skillname": "SP Down",
+          "skill": "41% Chance to reduce enemy's back row's SP by 41%<br><hz>Duration:</hz> 4 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 41%/1 time",
+          "skillimg": "SPdown",
+     },
 
             // -------------------------------------------------------------------------------- 
                                               // 2 STAR CARDS
