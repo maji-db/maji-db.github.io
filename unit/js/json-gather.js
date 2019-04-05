@@ -11,8 +11,8 @@
 					+'		<td class="text-center">' + power + '</td>'
 					+'		<td class="text-center">' + hp + '</td>'
 					+'		<td class="text-center">' + atk + '</td>'
-					+'		<td class="text-center">' + sp + '</td>'
 					+'		<td class="text-center">' + def + '</td>'
+					+'		<td class="text-center">' + sp + '</td>'
 					+'		<td class="text-center">' + spd + '</td>'																																											
 					+'</tr>';
 		return model;
