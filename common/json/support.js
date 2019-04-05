@@ -91,7 +91,7 @@ window.support=[
           "maxdef": "4640",
           "maxspd": "444",
           "skillname": "Heal",
-          "skill": "Heals equipped unit's HP by 43%<br><hz>Duration:</hz> instant <hz>Condition:</hz> when HP is under 30% <hz>Chance:</hz> 100%",
+          "skill": "Heals equipped unit's HP by 43%<br><hz>Duration:</hz> instant <hz>Condition:</hz> when HP is under 30% <hz>Chance:</hz> 100%/1 time",
           "skillimg": "HEAL",
      },
      {
