@@ -1099,7 +1099,7 @@ window.chara=[
           "autoimg2": "STUNresist",
           "autoname3": "Dreaming about the Special Training",
           "auto3": "80% chance to reduce one enemy row's ATK damage resistance by 20%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 50%",
-          "autoimg3": "BODYdmg",
+          "autoimg3": "ATKDMGresist",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg4": "DMGup",
