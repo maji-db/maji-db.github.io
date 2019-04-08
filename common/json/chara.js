@@ -45,7 +45,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type DEF +15%",
+          "lead": "Heart Attribute DEF +15%",
           "rank": "G"
             },
             {
@@ -89,7 +89,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +15%",
+          "lead": "Yang Attribute ATK +15%",
           "rank": "G"
       },
       {
@@ -133,7 +133,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +15%",
+          "lead": "Heart Attribute ATK +15%",
           "rank": "G"
       },
       {
@@ -177,7 +177,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type SP +15%",
+          "lead": "Body Attribute SP +15%",
           "rank": "G"
 },
       {
@@ -200,7 +200,7 @@ window.chara=[
           "maxspd": "394",
           "skill1img": "100103",
           "skill1name": "Shukuchi",
-          "skill1": "Own column Crit Chance +43% for 3 turns. Dodges Basic Attacks 2 times",
+          "skill1": "Own column Critical Rate +43% for 3 turns. Dodges Basic Attacks 2 times",
           "skill1cd":  "51",
           "skill2img": "100104",
           "skill2name": "Chorus of a Thousand Skulls",
@@ -221,12 +221,12 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +15%",
+          "lead": "Yin Attribute ATK +15%",
           "rank": "G"
       },
       {
           "id": "10044",
-          "name": "Beautiful Suzuki, Clown",
+          "name": "Clown, Beautiful Suzuki",
           "type": "dex",
           "class": "DEF",
           "rare": "5",
@@ -265,7 +265,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type DEF +15%",
+          "lead": "Dex Attribute DEF +15%",
           "rank": "G"
 },
       {
@@ -288,7 +288,7 @@ window.chara=[
           "maxspd": "428",
           "skill1img": "100107",
           "skill1name": "Spirit Wave Orb",
-          "skill1": "All allies SP +25% for 2 turns. Overall Damage +25% for 2 turns",
+          "skill1": "All allies SP +25% and Damage +25% for 2 turns",
           "skill1cd":  "60",
           "skill2img": "100108",
           "skill2name": "Spirit Gun: Weapon",
@@ -309,7 +309,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +15%",
+          "lead": "Yang Attribute SP +15%",
           "rank": "G"
       },
       {
@@ -353,7 +353,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type SP +15%",
+          "lead": "Heart Attribute SP +15%",
           "rank": "G"
       },
       {
@@ -397,7 +397,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +15%",
+          "lead": "Yang Attribute ATK +15%",
           "rank": "G"
       },
       {
@@ -441,7 +441,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type DEF +15%",
+          "lead": "Body Attribute DEF +15%",
           "rank": "G"
       },
           {
@@ -485,7 +485,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Damage Reduction +20%<br><hz>Duration:</hz> Permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +15%",
+          "lead": "Yang Attribute SP +15%",
           "rank": "G"
       },
       {
@@ -529,7 +529,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +15%",
+          "lead": "Dex Attribute SP +15%",
           "rank": "G"
 },
       {
@@ -556,7 +556,7 @@ window.chara=[
           "skill1cd":  "110",
           "skill2img": "100120",
           "skill2name": "Time Bomb",
-          "skill2": "Deal 85% ATK to front column with 25% chance to lower DEF for 3 turns",
+          "skill2": "Deal 85% ATK to front column with 80% chance to lower DEF by 25% for 3 turns",
           "skill2cd":  "100",
           "autoname1": "ATK up (B)",
           "auto1": "Increases own ATK by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
@@ -573,7 +573,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +15%",
+          "lead": "Yin Attribute ATK +15%",
           "rank": "G"
       }, 
       {
@@ -617,7 +617,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +15%",
+          "lead": "Dex Attribute ATK +15%",
           "rank": "G"
       },
       {
@@ -661,7 +661,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +15%",
+          "lead": "Yang Attribute SP +15%",
           "rank": "G"
       },
       {
@@ -705,7 +705,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +15%",
+          "lead": "Body Attribute ATK +15%",
           "rank": "G"
       },
       {
@@ -749,7 +749,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +15%",
+          "lead": "Yin Attribute SP +15%",
           "rank": "G"
       },
   
@@ -794,7 +794,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type SP +15%",
+          "lead": "Heart Attribute SP +15%",
           "rank": "G"
       },
       
@@ -839,7 +839,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +15%",
+          "lead": "Dex Attribute SP +15%",
           "rank": "G"
       },
       {
@@ -883,7 +883,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "SP Class SP +15%",
+          "lead": "SP Type SP +15%",
           "rank": "G"
       },
       {
@@ -927,7 +927,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type Taken Damage -15%",
+          "lead": "Body Attribute Taken Damage -15%",
           "rank": "G"
       },
       {
@@ -971,7 +971,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type Damage +15%",
+          "lead": "Dex Attribute Damage +15%",
           "rank": "G"
       },
 
@@ -995,7 +995,7 @@ window.chara=[
           "maxspd": "290",
           "skill1img": "100243",
           "skill1name": "Sky Echoing Ground Shaking Roar",
-          "skill1": "Increases Damage of all ATK Class allies by 71% for 2 turns",
+          "skill1": "Increases Damage of all ATK Type allies by 71% for 2 turns",
           "skill1cd":  "60",
           "skill2img": "100244",
           "skill2name": "Extremely Destructive Rush",
@@ -1016,7 +1016,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "ATK Class ATK +15%",
+          "lead": "ATK Type ATK +15%",
           "rank": "G"
       },
 
@@ -1061,7 +1061,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type SP +15%",
+          "lead": "Yin Attribute SP +15%",
           "rank": "G"
 }, 
   
@@ -1089,7 +1089,7 @@ window.chara=[
           "skill1cd":  "60",
           "skill2img": "100428",
           "skill2name": "Iron Fist Burst",
-          "skill2": "Deal 128% ATK to front column. If there's 3 or more ATK class allies in your team (including this unit), 60% chance to stun for 1 turn",
+          "skill2": "Deal 128% ATK to front column. If there's 3 or more ATK type allies in your team (including this unit), 60% chance to stun for 1 turn",
           "skill2cd":  "100",
           "autoname1": "Advantage Damage up (B)",
           "auto1": "Increases Damage against weaker attribute by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
@@ -1106,7 +1106,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +15%",
+          "lead": "Dex Attribute ATK +15%",
           "rank": "G"
       },
   
@@ -1151,7 +1151,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type SP +15%",
+          "lead": "Body Attribute SP +15%",
           "rank": "G"
       },
       {
@@ -1187,7 +1187,7 @@ window.chara=[
           "auto2": "Increases Resistance against Stun status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "STUNresist",
           "autoname3": "Overflowing Fighting Spirit",
-          "auto3": "Increases own ATK by 60%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 500%",
+          "auto3": "Increases own ATK by 60%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 50%",
           "autoimg3": "ATKup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
@@ -1195,7 +1195,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "ATK class ATK +15%",
+          "lead": "ATK type ATK +15%",
           "rank": "G"
       },
   
@@ -1240,7 +1240,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +15%",
+          "lead": "Body Attribute ATK +15%",
           "rank": "G"
       },
   
@@ -1285,7 +1285,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type DEF +15%",
+          "lead": "Heart Attribute DEF +15%",
           "rank": "G"
       },
       {
@@ -1329,7 +1329,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "ATK Type Damage +15%",
+          "lead": "ATK Attribute Damage +15%",
           "rank": "G"
       },
       {
@@ -1352,7 +1352,7 @@ window.chara=[
           "maxspd": "564",
           "skill1img": "100439",
           "skill1name": "Fist of the Mortal Flame",
-          "skill1": "Deal 218% ATK to one enemy. If the target is a DEF class, 90% chance to inflict 10% Burn for 2 turns",
+          "skill1": "Deal 218% ATK to one enemy. If the target is a DEF type, 90% chance to inflict 10% Burn for 2 turns",
           "skill1cd":  "94",
           "skill2img": "100440",
           "skill2name": "Absorbed Black Dragon's Attack",
@@ -1373,7 +1373,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +15%",
+          "lead": "Yang Attribute ATK +15%",
           "rank": "G"
       },
           {
@@ -1396,11 +1396,11 @@ window.chara=[
           "maxspd": "468",
           "skill1img": "100399",
           "skill1name": "Underground Bomb",
-          "skill1": "Deal 188% SP to target. 90% chance to increase damage taken by 57% for 2 turns",
+          "skill1": "Deal 188% SP to target with 90% chance to increase damage taken by 57% for 2 turns",
           "skill1cd":  "100",
           "skill2img": "100400",
           "skill2name": "Connected Bomb",
-          "skill2": "Deal 128% SP to front row. 80% chance to reduce DEF by 36% for 3 turns",
+          "skill2": "Deal 128% SP to front row with 80% chance to reduce DEF by 36% for 3 turns",
           "skill2cd":  "100",
           "autoname1": "SP Damage Resistance (B)",
           "auto1": "Increases Resistance against SP Damage taken by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
@@ -1417,7 +1417,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +15%",
+          "lead": "Dex Attribute SP +15%",
           "rank": "G"
 },
 {
@@ -1444,7 +1444,7 @@ window.chara=[
           "skill1cd":  "60",
           "skill2img": "100402",
           "skill2name": "Battle Aura Cross Attack",
-          "skill2": "Own Body type damage +50% for 1 turn. Deal 68% SP to back row with 80% chance to reduce ATK by 36% for 3 turns",
+          "skill2": "Own Body damage +50% for 1 turn. Deal 68% SP to back row with 80% chance to reduce ATK by 36% for 3 turns",
           "skill2cd":  "100",
           "autoname1": "Guard Percentage Up (B)",
           "auto1": "Increases own Guard Percentage by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
@@ -1461,7 +1461,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type DEF +15%",
+          "lead": "Body Attribute DEF +15%",
           "rank": "G"
 },
   {
@@ -1505,7 +1505,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type DEF +15%",
+          "lead": "Dex Attribute DEF +15%",
           "rank": "G"
 },
   {
@@ -1549,7 +1549,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type Taken Damage -15%",
+          "lead": "Heart Attribute Taken Damage -15%",
           "rank": "G"
 },
 
@@ -1594,7 +1594,7 @@ window.chara=[
           "autoname5": "Damage Reduction (B)",
           "auto5": "Reduces Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +15%",
+          "lead": "Yang Attribute SP +15%",
           "rank": "G"
 },
             // -------------------------------------------------------------------------------- 
@@ -1642,7 +1642,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +10%",
+          "lead": "Yang Attribute SP +10%",
           "rank": "G"
             },
             {
@@ -1686,7 +1686,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type SP +10%",
+          "lead": "Body Attribute SP +10%",
           "rank": "G"
       },
             {
@@ -1730,7 +1730,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +10%",
+          "lead": "Yin Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -1774,7 +1774,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +10%",
+          "lead": "Heart Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -1818,7 +1818,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type SP +10%",
+          "lead": "Body Attribute SP +10%",
           "rank": "G"
       },
             {
@@ -1862,7 +1862,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type SP +10%",
+          "lead": "Yin Attribute SP +10%",
           "rank": "G"
       },
             {
@@ -1906,7 +1906,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type SP +10%",
+          "lead": "Yin Attribute SP +10%",
           "rank": "G"
       },
             {
@@ -1950,7 +1950,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type SP +10%",
+          "lead": "Heart Attribute SP +10%",
           "rank": "G"
       },
             {
@@ -1994,7 +1994,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type DEF +10%",
+          "lead": "Body Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2038,7 +2038,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type DEF +10%",
+          "lead": "Yin Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2082,7 +2082,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type DEF +10%",
+          "lead": "Dex Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2126,7 +2126,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type DEF +10%",
+          "lead": "Heart Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2170,7 +2170,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type DEF +10%",
+          "lead": "Heart Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2214,7 +2214,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +10%",
+          "lead": "Dex Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -2258,7 +2258,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +10%",
+          "lead": "Body Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -2302,7 +2302,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +10%",
+          "lead": "Body Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -2346,7 +2346,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type DEF +10%",
+          "lead": "Yin Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2390,7 +2390,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +10%",
+          "lead": "Yang Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -2434,7 +2434,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +10%",
+          "lead": "Dex Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -2478,7 +2478,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type DEF +10%",
+          "lead": "Yang Attribute DEF +10%",
           "rank": "G"
       },
             {
@@ -2522,7 +2522,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type DEF +10%",
+          "lead": "Dex Attribute DEF +10%",
           "rank": "G"
       },
   
@@ -2612,7 +2612,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +10%",
+          "lead": "Heart Attribute ATK +10%",
           "rank": "G"
       },
             {
@@ -2656,7 +2656,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +10%",
+          "lead": "Dex Attribute SP +10%",
           "rank": "G"
       },
             {
@@ -2700,7 +2700,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type DEF +10%",
+          "lead": "Yang Attribute DEF +10%",
           "rank": "G"
       },
   
@@ -2745,7 +2745,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +10%",
+          "lead": "Heart Attribute ATK +10%",
           "rank": "G"
       },
             
@@ -2794,7 +2794,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +5%",
+          "lead": "Dex Attribute SP +5%",
           "rank": "G"
       },
             {
@@ -2838,7 +2838,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type DEF +5%",
+          "lead": "Body Attribute DEF +5%",
           "rank": "G"
       },
          {
@@ -2882,7 +2882,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +5%",
+          "lead": "Heart Attribute ATK +5%",
           "rank": "G"
       },
             {
@@ -2926,7 +2926,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type SP +5%",
+          "lead": "Yin Attribute SP +5%",
           "rank": "G"
       },
           {
@@ -2970,7 +2970,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +5%",
+          "lead": "Yin Attribute ATK +5%",
           "rank": "G"
       },
           {
@@ -3014,7 +3014,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +5%",
+          "lead": "Yang Attribute SP +5%",
           "rank": "G"
       },
           {
@@ -3058,7 +3058,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +5%",
+          "lead": "Yang Attribute SP +5%",
           "rank": "G"
       },
             {
@@ -3102,7 +3102,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type SP +5%",
+          "lead": "Heart Attribute SP +5%",
           "rank": "G"
       },
               {
@@ -3146,7 +3146,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type DEF +5%",
+          "lead": "Dex Attribute DEF +5%",
           "rank": "G"
       },
                 {
@@ -3190,7 +3190,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +5%",
+          "lead": "Yang Attribute SP +5%",
           "rank": "G"
       },
                   {
@@ -3234,7 +3234,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type SP +5%",
+          "lead": "Body Attribute SP +5%",
           "rank": "G"
       },
             {
@@ -3278,7 +3278,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type SP +5%",
+          "lead": "Body Attribute SP +5%",
           "rank": "G"
       },
               {
@@ -3322,7 +3322,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +5%",
+          "lead": "Dex Attribute ATK +5%",
           "rank": "G"
       },
                 {
@@ -3366,7 +3366,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +5%",
+          "lead": "Heart Attribute ATK +5%",
           "rank": "G"
       },
                   {
@@ -3410,7 +3410,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +5%",
+          "lead": "Yang Attribute ATK +5%",
           "rank": "G"
       },
               {
@@ -3454,7 +3454,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +5%",
+          "lead": "Dex Attribute SP +5%",
           "rank": "G"
       },
            {
@@ -3498,7 +3498,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type DEF +5%",
+          "lead": "Yin Attribute DEF +5%",
           "rank": "G"
       },
             {
@@ -3542,7 +3542,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +5%",
+          "lead": "Body Attribute ATK +5%",
           "rank": "G"
       },
            {
@@ -3586,7 +3586,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type DEF +5%",
+          "lead": "Heart Attribute DEF +5%",
           "rank": "G"
       },
           {
@@ -3630,7 +3630,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +5%",
+          "lead": "Dex Attribute ATK +5%",
           "rank": "G"
       },
           {
@@ -3674,7 +3674,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +5%",
+          "lead": "Body Attribute ATK +5%",
           "rank": "G"
       },
          {
@@ -3718,7 +3718,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type SP +5%",
+          "lead": "Yin Attribute SP +5%",
           "rank": "G"
       },
          {
@@ -3762,7 +3762,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +5%",
+          "lead": "Yin Attribute ATK +5%",
           "rank": "G"
       },
          {
@@ -3806,7 +3806,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type DEF +5%",
+          "lead": "Yang Attribute DEF +5%",
           "rank": "G"
       },
          {
@@ -3850,7 +3850,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +5%",
+          "lead": "Heart Attribute ATK +5%",
           "rank": "G"
       },
   
@@ -3900,7 +3900,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type DEF +5%",
+          "lead": "Heart Attribute DEF +5%",
           "rank": "G"
       },
           {
@@ -3944,7 +3944,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type SP +5%",
+          "lead": "Yang Attribute SP +5%",
           "rank": "G"
       },
           {
@@ -3988,7 +3988,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Ying Type ATK +5%",
+          "lead": "Ying Attribute ATK +5%",
           "rank": "G"
       },
           {
@@ -4032,7 +4032,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +5%",
+          "lead": "Yang Attribute ATK +5%",
           "rank": "G"
       },
           {
@@ -4076,7 +4076,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type ATK +5%",
+          "lead": "Body Attribute ATK +5%",
           "rank": "G"
       },
           {
@@ -4120,7 +4120,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type SP +5%",
+          "lead": "Dex Attribute SP +5%",
           "rank": "G"
       },
          {
@@ -4164,7 +4164,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type ATK +5%",
+          "lead": "Heart Attribute ATK +5%",
           "rank": "G"
       },
         {
@@ -4208,7 +4208,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +5%",
+          "lead": "Yin Attribute ATK +5%",
           "rank": "G"
       },
          {
@@ -4252,7 +4252,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +5%",
+          "lead": "Dex Attribute ATK +5%",
           "rank": "G"
       },
          {
@@ -4296,7 +4296,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type DEF +5%",
+          "lead": "Body Attribute DEF +5%",
           "rank": "G"
       },
   
@@ -4345,7 +4345,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Heart Type SP +5%",
+          "lead": "Heart Attribute SP +5%",
           "rank": "G"
       },
   
@@ -4390,7 +4390,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Body Type DEF +5%",
+          "lead": "Body Attribute DEF +5%",
           "rank": "G"
       },
             {
@@ -4434,7 +4434,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yang Type ATK +5%",
+          "lead": "Yang Attribute ATK +5%",
           "rank": "G"
       },
             {
@@ -4478,7 +4478,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +5%",
+          "lead": "Yin Attribute ATK +5%",
           "rank": "G"
       },
             {
@@ -4522,7 +4522,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +5%",
+          "lead": "Dex Attribute ATK +5%",
           "rank": "G"
       },
 ] 
