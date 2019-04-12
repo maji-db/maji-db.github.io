@@ -478,6 +478,28 @@ window.support=[
           "skill": "Increases guard percentage of own row by 17%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 90%",
           "skillimg": "GUARDup",
      },
+     {
+          "id": "20100",
+          "name": "Genkai, Brilliant Spirit Seeker",
+          "type": "body",
+          "class": "SP",
+          "rare": "4",
+          "power": "410",
+          "hp": "203",
+          "atk": "40",
+          "def": "100",
+          "sp": "157",
+          "spd": "117",
+          "maxpower": "4126",
+          "maxhp": "2079",
+          "maxatk": "411",
+          "maxdef": "1026",
+          "maxsp": "1608",
+          "maxspd": "422",
+          "skillname": "SP Damage Resistance Down",
+          "skill": "30% chance to reduce enemy's front column's SP damage resistance by 24%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 72%",
+          "skillimg": "SPDMGresistdown",
+     },
      
             // -------------------------------------------------------------------------------- 
                                               // 3 STAR CARDS
