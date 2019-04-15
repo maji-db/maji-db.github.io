@@ -1630,7 +1630,7 @@ window.chara=[
           "auto2": "Increases Resistance against Freeze status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "FREEZEresist",
           "autoname3": "Destroying Freezing Northern Lights",
-          "auto3": "Increases own SP by 50% with 70% chance to reduce all enemies' freeze resistance by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when HP is under 50% <hz>Chance:</hz> 100%/1 time",
+          "auto3": "Own SP +50% with 70% chance to reduce all enemies' freeze resist by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when HP is under 50% <hz>Chance:</hz> 100%/1 time",
           "autoimg3": "SPup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
