@@ -1617,7 +1617,7 @@ window.chara=[
           "maxspd": "358",
           "skill1img": "100479",
           "skill1name": "Shards of Winter: Both Hands",
-          "skill1": "Deal 90% SP to back column with 40% change to freeze for 1 turn",
+          "skill1": "Deal 90% SP to back column with 40% chance to freeze for 1 turn",
           "skill1cd":  "98",
           "skill2img": "100480",
           "skill2name": "Ice Biding",
