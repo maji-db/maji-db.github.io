@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Yu Yu Hakusho 100% Maji Battle Database</title>
+
+    <!--BOOTSTRAP -->
+    <link href="../unit/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../unit/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../unit/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../unit/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../unit/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../unit/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../unit/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../unit/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../unit/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../unit/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../unit/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../unit/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../unit/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../unit/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+
+	    <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../unit/css/datatables.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<!-- DATABASE ENTRIES -->
+ 	<script type="text/javascript" src="../common/json/tool.js"></script>
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="https://i.icomoon.io/public/adb54f46d6/Linearicons/style.css">
+
+	<style>
+		tr{cursor: pointer;}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="css/modal.css"/>
+	
+</head>
+
+<body>
+	<!-- MODAL -->
+	<div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="newModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<div id="tablebg"></div>
+					<div class="row">
+					<div class="col-md-11 col-xs-6">
+							<div class="unit-icon">
+								<img id="icon-unit" src="" >
+							</div>
+							<img id="type-unit" src="" height="50px" style="margin-top: 10px;">		
+							<h3 id="name-unit"></h3>
+						</div>
+						<div class="col-md-1 col-xs-6">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal-body">
+					<div class="base-unit-view">
+
+						<div class="base-toggle">
+							<a class="toggle-rarity" id="toggleRarity"></a>
+						</div>
+						
+						<div class="content-rarity">
+
+							<div id="five-star">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="img-unit">
+											<img id="card-art" src="">
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="base-tables">
+											<div class="row">
+												<div class="col-md-12">
+													<ul class="nav nav-nscdb" role="tablist">
+														<li class="active"><a id="special-btn" class="active" data-toggle="tab" href="#details">Details</a></li>
+														<li class="left"><a id="auto-skill-btn" data-toggle="tab" href="#set">Set Effect</a></li>
+														<li class="left"><a id="status-btn" data-toggle="tab" href="#chara">Chara effect</a></li>
+													</ul>
+												</div>
+												<div class="col-md-12">
+													<div class="tab-content">
+														<div class="tab-pane active" id="special">
+															<div class="base-skill">
+																<div class="skill-icon">
+																	<img id="skill1img-five" src="" >
+																</div>
+																<div class="header">
+																	<div class="title">
+																		<h3 id="skill1name-five"></h3> <h5>CT.</h5><h6 id="skill1cost-five"></h6>
+																	</div>
+																</div>
+																<div class="description">
+																	<p id="skill1-five"></p>
+																</div>
+															</div>
+															<div class="base-skill">
+																<div class="skill-icon">
+																	<img id="skill2img-five" src="" >
+																</div>
+																<div class="header">
+																	<div class="title">
+																		<h3 id="skill2name-five"></h3> <h5>CT.</h5><h6 id="skill2cost-five"></h6>
+																	</div>
+																</div>
+																<div class="description">
+																	<p id="skill2-five"></p>
+																</div>
+															</div>
+
+														</div>
+														<div class="tab-pane fade" id="set">
+															<div id='set'>
+																
+															</div>
+														</div>
+
+														<div class="tab-pane fade" id="status">
+															<div class="base-stats">
+																<div class="header leader">
+																	<div class="type">
+																		<h4>Lead</h4>
+																	</div>
+																	<div class="title">
+																		<h3 id="leadname-five"></h3>
+																	</div>
+																</div>
+															</div>
+															<table class="table col-md-12 col-md-offset-4">
+																<thead>
+																	<tr>
+																		<th></th>
+																		<th>G Rank</th>
+																		<th>SSS Rank</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Power</td>
+																		<td id="power"></td>
+																		<td id="maxpower"></td>
+																		</tr>
+																	<tr>
+																		<td>HP</td>
+																		<td id="hp"></td>
+																		<td id="maxhp"></td>
+																	<tr>
+																		<td>ATK</td>
+																		<td id="atk"></td>
+																		<td id="maxatk"></td>
+																	</tr>
+																	<tr>
+																		<td>SP</td>
+																		<td id="sp"></td>
+																		<td id="maxsp"></td>
+																	</tr>
+																	<tr>
+																		<td>DEF</td>
+																		<td id="def"></td>
+																		<td id="maxdef"></td>
+																	</tr>
+																	<tr>
+																		<td>SPD</td>
+																		<td id="spd"></td>
+																		<td id="maxspd"></td>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- MODAL -->
+<div class="dbbg">
+  <div class="dbheader"></div>
+       <div class="container">
+	<div class="base-header">
+		<div class="reddit"><p>Join  us in the Reddit: <a target="_blank" href="http://reddit.com/r/MajiBattle">/r/MajiBattle</a></p></div>
+		<div class="discord"><p>Join  us on Discord: <a target="_blank" href="https://discord.gg/3BkFyTAt">Here</a></p></div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="base-menu">
+						<ul>
+							<li class="active"><a href="maji-db.github.io/index.html" role="button">Index</a>
+							<li><a href="../unit" role="button">Main Units</a>
+							<li><a href="../support" role="button">Supports</a>
+
+<li><a href="../tool" role="button">Demon Tools</a>
+	
+
+							<!-- <li><a href="/guides" role="button">Guides</a>
+							<li><a href="/faq" role="button">FAQ</a> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="container">
+		<div class="base-content">
+		    <div class="content">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Latest Updates</h2>
+					<p></p>
+				</div>
+				<div class="col-md-8">
+					<div class="alert alert-warning" role="alert">
+						<strong>[4/12] 4★ Genkai - Brilliant Spirit Seeker<br>
+							[4/15] 5★ Ruka - Barrier Practitioner<br></strong> 
+					</div>
+				</div>
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<h2>Filter</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 ">
+					<div class="panel-heading">
+						<div class="btn-danger" id="reset-filter" style="width:110%; text-align: center;">
+						Reset</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="filter-type" class="" style="padding: 10px; text-align: center;">
+						<div class="list-group">
+							<div class="col-md-1">&#32;</div>
+							<div class="col-md-2">
+							<a href="#" id="wpn" class="list-group-item">Weapon</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="arm" class="list-group-item">Armor</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="acc" class="list-group-item">Accessory</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="yang" class="list-group-item">Yang</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="yin" class="list-group-item">Yin</a>
+							</div>
+							<div class="col-md-1">&#32;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div id="filter-rarity" class="" style="padding: 10px; text-align: center;">
+						<div class="list-group">
+							<div class="col-md-1">&#32;</div>
+							<div class="col-md-2">
+							<a href="#" id="1" class="list-group-item">1&#9733;</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="2" class="list-group-item">2&#9733;</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="3" class="list-group-item">3&#9733;</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="4" class="list-group-item">4&#9733;</a>
+							</div>
+							<div class="col-md-2">
+							<a href="#" id="5" class="list-group-item">5&#9733;</a>
+							</div>
+							<div class="col-md-1">&#32;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2" style="margin-bottom: 10px;" >
+					<div id="filter-class" class="" style="padding: 10px; text-align: center;">
+						<div class="list-group">
+							<div class="col-md-4">
+							<a href="#" id="ATK" class="list-group-item">ATK</a>
+							</div>
+							<div class="col-md-4">
+							<a href="#" id="SP" class="list-group-item">SP</a>
+							</div>
+							<div class="col-md-4">
+							<a href="#" id="DEF" class="list-group-item">DEF</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+				
+			
+
+			<div class="row">
+				<div class="col-md-12">
+					<table id="myTable" class="display" cellspacing="0" width="100%">
+						<tbody class="cards">
+						</tbody>
+					</table>
+				</div>
+
+				
+							
+			</div>
+			    
+			    <div class="dbfooter">Created by Yuyya, edited by Mitsu</div>
+			    
+		</div></div><!-- content div -->
+	</div>
+	
+	</div><!-- fixed background div -->
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!--BOOTSTRAP-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--JSON GATHER -->
+	<script type="text/javascript" src="js/json-gather.js"></script>
+
+	<!-- TABLE GENERATOR -->
+	<script type="text/javascript" src="../unit/js/datatables.min.js"></script>
+	
+	<script type="text/javascript" src="../unit/js/table.js"></script>
+
+	<script>
+		$('#newModal').on('hidden.bs.modal', function (e) {
+		  $(this).find(‘.modal-dialog’).empty();
+		})
+	</script>
+
+</body>
+</html>
