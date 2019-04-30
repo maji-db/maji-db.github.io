@@ -2836,7 +2836,7 @@ window.chara=[
           "rank": "G"
       },
             {
-          "id": "10168",
+          "id": "10200",
           "name": "Kurama, Words Expert",
           "type": "dex",
           "class": "DEF",
