@@ -4101,7 +4101,7 @@ window.chara=[
           "skill2cd":  "110",
           "autoname1": "Guard Up (M)",
           "auto1": "Increases own Guard percentage by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
-          "autoimg1": "CRITup",
+          "autoimg1": "GUARDup",
           "autoname2": "Freeze Resistance (M)",
           "auto2": "Increases Resistance against Freeze Status by 90%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "FREEZEresist",
