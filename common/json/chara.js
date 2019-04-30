@@ -1051,7 +1051,7 @@ window.chara=[
           "auto2": "Increases Resistance against Burn status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "BURNresist",
           "autoname3": "Dark Angel",
-          "auto3": "80% chance to reduce enemy front column's ATK damage reistance by 35%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 50%",
+          "auto3": "80% chance to reduce enemy front column's ATK damage resistance by 35%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> after a strengthening effect <hz>Chance:</hz> 50%",
           "autoimg3": "ATKDMGresistdown",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
