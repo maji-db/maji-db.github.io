@@ -976,7 +976,7 @@ window.chara=[
       },
       {
           "id": "10084",
-          "name": "Gatekeeper, Itsuki",
+          "name": "Itsuki, Gatekeeper",
           "type": "dex",
           "class": "DEF",
           "rare": "5",
@@ -1020,7 +1020,7 @@ window.chara=[
       },
       {
           "id": "10087",
-          "name": "Tainted Spirit Energy, Shinobu Sensui",
+          "name": "Shinobu Sensui, Tainted Spirit Energy",
           "type": "yang",
           "class": "ATK",
           "rare": "5",
