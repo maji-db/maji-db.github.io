@@ -1,6 +1,6 @@
 ﻿(function(){
 
-	function _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd){
+	function _createCard(id, name, type, power, hp, atk, sp, def, spd){
 		//Create Entries in the Table
 		var model = '<tr class="clickable" data-toggle="modal" data-target="#newModal">'
 					+'		<td class="text-center"><img id="icon-table" src="../common/assets/equip_thumb/weapon_icon_' + id + '.png" height="75px" width="75px" /><div style="display:none">' + id + '</td>'
@@ -24,12 +24,12 @@
 		
 		var tools = []; // Tool's Info
 		var name = '';	// Tool Name
-		var type = '';	// Tool Type
+		var type;	// Tool Type
 		var hp;		// Tool HP
-		var atk;		// Tool ATK
-		var def;		// Tool DEF
+		var atk;	// Tool ATK
+		var def;	// Tool DEF
 		var sp;		// Tool SP
-		var spd;		// Tool SPD
+		var spd;	// Tool SPD
 		var power;	// Tool Power
 		var id;		// Tool ID	
 		
@@ -105,6 +105,7 @@
 			if(id == window.equip[i]['id']){
 				$('#icon-tool').attr('src', '../common/assets/equip_thumb/weapon_icon_' + id + '.png'); 
 				$('#name-tool').text(window.equip[i]['name']);
+				$('#type').text(window.equip[i]['type']); 
 
 				$('#card-art').attr('src', '../common/assets/equips/weapon_' + id + '.png');
 
