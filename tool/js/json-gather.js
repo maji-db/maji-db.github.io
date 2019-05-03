@@ -48,8 +48,8 @@
 			spd = tool["spd"];
 
 			//Creates Entry
-			if(tools.indexOf(support[0]) == -1){ // Verifies Character ID
-				tools.push(unit[0]); // Adds Tool in the array			
+			if(tools.indexOf(equip[0]) == -1){ // Verifies Character ID
+				tools.push(tool[0]); // Adds Tool in the array			
 				content += _createCard(id, name, type, power, hp, atk, sp, def, spd); // Call the function adding the card order
 			}
 		}
@@ -89,7 +89,7 @@
 					  	tool:equip[0]
     				},
 					"six":{
-				 		tool:support[0]
+				 		tool:equip[0]
 					}
 				}
 				_buildCardModal(id, thumb, cards, cid);
@@ -117,7 +117,7 @@
 				setdesc = 'setdesc' + x;
                     			setname = 'setname' + x;
                     			setimg = 'setimg' + x;
-					if(window.equip[i][set] != ""){
+					if(window.equip[i][setdesc] != ""){
 							seteffect += '<div class="base-ability">' 
 								  +  	'<div class="description">'
 						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.equip[i][setimg] + '.png"></div>'
@@ -139,7 +139,7 @@ document.getElementById("set-effect").innerHTML = seteffect;
 				$('#atk').text(window.equipt[i]['atk']);
 				$('#sp').text(window.equip[i]['sp']);
 				$('#def').text(window.equip[i]['def']);
-				$('#spd').text(window.support[i]['spd']);
+				$('#spd').text(window.equip[i]['spd']);
 				$('#maxpower').text(window.equip[i]['maxpower']); 
 				$('#maxhp').text(window.equip[i]['maxhp']);
 				$('#maxatk').text(window.equip[i]['maxatk']);
