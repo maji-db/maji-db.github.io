@@ -33,9 +33,9 @@
 		var power;	// Tool Power
 		var id;		// Tool ID	
 		
-		for(var i in window.support){
+		for(var i in window.equip){
 			//Current Character
-			var tool = window.support[i];
+			var tool = window.equip[i];
 			//Add Info
 			id = tool['id'];
 			name = tool['name'];
@@ -49,7 +49,7 @@
 
 			//Creates Entry
 			if(tools.indexOf(support[0]) == -1){ // Verifies Character ID
-				tool.push(unit[0]); // Adds Tool in the array			
+				tools.push(unit[0]); // Adds Tool in the array			
 				content += _createCard(id, name, type, power, hp, atk, sp, def, spd); // Call the function adding the card order
 			}
 		}
@@ -68,8 +68,8 @@
 				var tool = [];
 				var cid = 0;
 				// Look for the unit's information
-				for(i in window.support){
-					i = window.support[i];
+				for(i in window.equip){
+					i = window.equip[i];
 					// Verifies the unit's ID
 					if(i["cardId"]==id) {
 						/*
