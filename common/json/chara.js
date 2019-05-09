@@ -1051,7 +1051,7 @@ window.chara=[
           "auto2": "Increases Resistance against Burn status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "BURNresist",
           "autoname3": "Burn Point Sadism",
-          "auto3": "Increases chance to inflict burn<br><hz>Duration:</hz> ? turns <hz>Condition:</hz> ?? <hz>Chance:</hz> ??",
+          "auto3": "80% chance to inflict 10% burn & 70% chance to reduce SP dmg resist by 10%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> When using a special <hz>Chance:</hz> 100%",
           "autoimg3": "BURNchance",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
