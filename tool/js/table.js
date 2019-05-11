@@ -32,6 +32,8 @@
       			 responsive: true
 			});
 
+			var set1Arr = [];
+			var set2Arr = [];
 			var typeArr = [];
 
 			table
@@ -40,7 +42,118 @@
 		    .draw();
 
 		    //Type
-		  	 $("#filter-type").on("click", ".list-group-item", function(e) {
+		    //Attribute
+		  	 $("#filter-set1").on("click", ".list-group-item", function(e) {
+				e.preventDefault();
+				if($(this).attr('class') == 'list-group-item active'){
+					$(this).attr('class', "list-group-item");
+
+					//Remove Filter
+					var remove = $(this).attr('id');
+
+					var location;
+					for(var x = 0; x < set1Arr.length; x++){
+						if(set1Arr[x] == remove){
+							location = x;
+						}
+					}
+					set1Arr.splice(location, 1);
+					
+					var set1 = "";
+					//Create Tags
+					for(var x = 0; x < set1Arr.length; x++){
+						if(!set1){
+							set1 += set1Arr[x];
+						}
+						else{
+							set1 += "|";
+							set1 += set1Arr[x];
+						}
+					}
+					table
+				 	.column(2)
+			     	.search(set1, true, false)
+			     	.draw();
+				}
+
+				else{
+					$(this).attr('class', "list-group-item active");
+					set1Arr.push($(this).attr('id'));
+
+					var type = "";
+					//Create Tags
+					for(var x = 0; x < set1Arr.length; x++){
+						if(!set1){
+							set1 += set1Arr[x];
+						}
+						else{
+							set1 += "|";
+							set1 += set1Arr[x];
+						}
+					}
+					table
+				 	.column(2)
+			     	.search(set1, true, false)
+			     	.draw();
+		   	   }
+			 });
+
+		  	 $("#filter-set2").on("click", ".list-group-item", function(e) {
+				e.preventDefault();
+				if($(this).attr('class') == 'list-group-item active'){
+					$(this).attr('class', "list-group-item");
+
+					//Remove Filter
+					var remove = $(this).attr('id');
+
+					var location;
+					for(var x = 0; x < set2Arr.length; x++){
+						if(set2Arr[x] == remove){
+							location = x;
+						}
+					}
+					set2Arr.splice(location, 1);
+					
+					var set2 = "";
+					//Create Tags
+					for(var x = 0; x < set2Arr.length; x++){
+						if(!set2){
+							set2 += set2Arr[x];
+						}
+						else{
+							set2 += "|";
+							set2 += set2Arr[x];
+						}
+					}
+					table
+				 	.column(4)
+			     	.search(set2, true, false)
+			     	.draw();
+				}
+
+				else{
+					$(this).attr('class', "list-group-item active");
+					set2Arr.push($(this).attr('id'));
+
+					var set2 = "";
+					//Create Tags
+					for(var x = 0; x < set2Arr.length; x++){
+						if(!set2){
+							set2 += set2Arr[x];
+						}
+						else{
+							set2 += "|";
+							set2 += set2Arr[x];
+						}
+					}
+					table
+				 	.column(4)
+			     	.search(set2, true, false)
+			     	.draw();
+		   	   }
+			 });
+
+		  	$("#filter-type").on("click", ".list-group-item", function(e) {
 				e.preventDefault();
 				if($(this).attr('class') == 'list-group-item active'){
 					$(this).attr('class', "list-group-item");
@@ -68,7 +181,7 @@
 						}
 					}
 					table
-				 	.column(2)
+				 	.column(3)
 			     	.search(type, true, false)
 			     	.draw();
 				}
@@ -89,12 +202,11 @@
 						}
 					}
 					table
-				 	.column(2)
+				 	.column(3)
 			     	.search(type, true, false)
 			     	.draw();
 		   	   }
-			 });
-
+});
 
 		  	$("#reset-filter").on("click", function(e) {
 				e.preventDefault();
