@@ -52,7 +52,7 @@ window.equip=[
           "cename": "Critical Up",
           "cedesc": "Increases Critical Rate by 3%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "ceimg": "CRITup",
-          "ceunit": "",
+          "ceunit": "<img src='https://maji-db.github.io/common/assets/thumb/ch_icon_10001.png' title='Sarayashiki School nº1, Yusuke Urameshi'> <img src='https://maji-db.github.io/common/assets/thumb/ch_icon_10060.png' title='Shotgun Light Fist, Yusuke Urameshi'> <img src='https://maji-db.github.io/common/assets/thumb/ch_icon_10046.png' title='Spirit's Successor, Yusuke Urameshi'> <img src='https://maji-db.github.io/common/assets/thumb/ch_icon_10146.png' title='Sleeping Lion, Yusuke Urameshi'> <img src='https://maji-db.github.io/common/assets/thumb/ch_icon_10148.png' title='Iron Breaking Head Strike, Yusuke Urameshi'>",
      },
 
      
