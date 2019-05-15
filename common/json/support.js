@@ -227,7 +227,7 @@ window.support=[
           "skillimg": "CRITup",
      },
      {
-          "id": "20062",
+          "id": "20063",
           "name": "Hina, Cursed Child's Mother",
           "type": "yin",
           "class": "SP",
