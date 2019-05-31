@@ -1153,7 +1153,7 @@ window.chara=[
       },
 
       {
-          "id": "10092",
+          "id": "10093",
           "name": "Koenma, Noble Family Secret Power",
           "type": "heart",
           "class": "DEF",
