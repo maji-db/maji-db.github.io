@@ -123,7 +123,7 @@
 								  +  	'<div class="description">'
 						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.equip[i][setimg] + '.png"></div>'
 								  +			'<h3 id="ability' + x + '">' + window.equip[i][setname] + '</h3>'
-								  +			'<h4 id="ability' + x + '">' + 'x + 1' + ' item bonus' + '</h4>'
+								  +			'<h4 id="ability' + x + '">' + 'x += 1' + ' item bonus' + '</h4>'
 								  +			'<p id="ability' + x + '">' + window.equip[i][setdesc] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
