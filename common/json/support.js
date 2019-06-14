@@ -113,7 +113,7 @@ window.support=[
           "maxdef": "3572",
           "maxspd": "468",
           "skillname": "Defense Down",
-          "skill": "Decreases DEF of front enemy column by 43%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a status decrease <hz>Chance:</hz> 80%",
+          "skill": "Decreases DEF of front enemy column by 43%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a weakening effect <hz>Chance:</hz> 80%",
           "skillimg": "DEFdown",
      },
      {
@@ -471,7 +471,7 @@ window.support=[
           "maxsp": "574",
           "maxspd": "430",
           "skillname": "Critical Up",
-          "skill": "Increases Critical Rate of equipped unit by 30%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a status decrease <hz>Chance:</hz> 72%",
+          "skill": "Increases Critical Rate of equipped unit by 30%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a weakening effect <hz>Chance:</hz> 72%",
           "skillimg": "CRITup",
      },
      
@@ -981,7 +981,7 @@ window.support=[
           "maxsp": "522",
           "maxspd": "428",
           "skillname": "Def Up",
-          "skill": "Increases DEF of equipped unit by 28%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a status decrease <hz>Chance:</hz> 64%",
+          "skill": "Increases DEF of equipped unit by 28%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a weakening effect <hz>Chance:</hz> 64%",
           "skillimg": "DEFup",
      },
      {
