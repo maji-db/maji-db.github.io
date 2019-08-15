@@ -1977,7 +1977,7 @@ window.chara=[
           "skill1cd":  "111",
           "skill2img": "100484",
           "skill2name": "Mounted Rapid Firing",
-          "skill2": "Deals 75% ATK to all enemies with 100 chance to increase damage taken by 36% and decrease ATK by 50% for 2 turns",
+          "skill2": "Deals 75% ATK to all enemies with 100% chance to increase damage taken by 36% and decrease ATK by 50% for 2 turns",
           "skill2cd":  "120",
           "autoname1": "ATK Damage Resistance (B)",
           "auto1": "Increases Resistance against ATK Damage taken by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
