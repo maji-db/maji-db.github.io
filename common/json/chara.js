@@ -866,7 +866,7 @@ window.chara=[
           "skill1cd":  "110",
           "skill2img": "100302",
           "skill2name": "Secret Plant Wound Healing",
-          "skill2": "Ressurects an ally with 30% HP if they're dead. Reduces damage taken by 50% for 2 turns",
+          "skill2": "Ressurects an ally from own column with 30% HP if they're dead. Reduces damage taken by 50% for 2 turns",
           "skill2cd":  "130",
           "autoname1": "ATK Damage Resistance (B)",
           "auto1": "Increases Resistance against ATK Damage taken by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
