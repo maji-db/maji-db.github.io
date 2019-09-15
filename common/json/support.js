@@ -311,7 +311,7 @@ window.support=[
           "maxsp": "1412",
           "maxspd": "446",
           "skillname": "Given Damage decrease & ATK up",
-          "skill": "Decreases damage of all enemies by 27% & increase equipped unit's ATK by 39%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a weakening effect <hz>Chance:</hz> 100%",
+          "skill": "Decrease dmg of all enemies by 27% & increase equipped unit's ATK by 39%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a weakening effect <hz>Chance:</hz> 100%",
           "skillimg": "ATKup",
      },
      {
