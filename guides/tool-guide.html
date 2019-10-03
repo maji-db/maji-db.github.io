@@ -50,7 +50,13 @@
 		
 		h1 {color: #FFF45C; font-size: 20px; font-weight: 700; text-shadow:2px 2px #000; margin-bottom:-10px}
 		
-		tr{cursor: pointer;}
+		table {width: 80%; color #fff}
+
+		th {padding: 10px; background-color: #68224F;}
+
+		td {padding: 10px; background-color: #000; border: 1px solid #ddd;}
+
+		tr:nth-child(even) {background-color: #ccc}
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="css/modal.css"/>
@@ -123,18 +129,18 @@ Every Demon Tool will come up with a random attribute and a few <b>bonuses</b> t
 The Attached Effect is determined in the moment of the drop and can have different kinds of bonuses depending on the tool type. Those bonuses can have different ranks, which are also chosen at the moment of the drop and <u>cannot be improved</u>; so if you get a low rank effect, that weapon is going to have it forever. The lowest rank is 1 and gives 1% of the bonus, while the max rank 10 gives 10%.<br>
 <br>
 <i>Possible Weapon Effects</i><br>
-Basic Attack Damage Up (通常攻撃与ダメージ増加)<br>
-Special Damage Up (必殺技与ダメージ増加)<br>
-ATK Damage Up (攻撃力与ダメージ増加)<br>
-SP Damage Up (妖力与ダメージ増加)<br>
-• Critical Up<br>
+• Basic Attack Damage Up (通常攻撃与ダメージ増加)<br>
+• Special Damage Up (必殺技与ダメージ増加)<br>
+• ATK Damage Up (攻撃力与ダメージ増加)<br>
+• SP Damage Up (妖力与ダメージ増加)<br>
+• Critical Up (会心率アップ)<br>
 <br>
 <i>Possible Armor Effects</i><br>
 • Basic Attack Taken Damage Reduction (通常攻撃被ダメージ減少)<br>
 • Special Taken Damage Reduction (必殺技被ダメージ減少)<br>
 • ATK Taken Damage Reduction (攻撃力被ダメージ減少)<br>
 • SP Taken Damage Reduction (妖力被ダメージ減少)<br>
-• Guard Up<br>
+• Guard Up (ガード率アップ)<br>
 <br>
 Accessories can have attached effects from <u>both types</u>.<br>
 <br>
@@ -207,7 +213,85 @@ The forging process is only available after your tool reaches max rarity, 5★. 
 <b>Awakening</b><br>
 Awakening works the same way as the other units awakenings: you use dupes to increase the tool's rank. Please note that the necessary dupes required to increase a tool's rank will change with its rarity! So a 3★ tool needs <i>more dupes</i> to increase its rank than a 2★, and so on. If you have previously increased a tool's rank before increasing its rarity, their rank <u>can drop</u> because of the process, but no dupes will be lost.<br>
 <br>
-<i>(※ A necessary dupe list will be provided when we have more info).</i><br>
+
+<table>
+  <tr>
+    <th>Necessary Number of Dupes to Increase the Rank</th>
+  </tr>
+  <tr>
+    <th>Tool Rarity</th>
+    <th>G→F</th>
+    <th>F→E</th>
+    <th>E→D</th>
+    <th>D→C</th>
+    <th>C→B</th>
+    <th>B→A</th>
+    <th>A→S</th>
+    <th>S→SS</th>
+    <th>SS→SSS</th>
+  </tr>
+  <tr>
+    <td>1★</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>5</td>
+    <td>7</td>
+    <td>10</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>2★</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>5</td>
+    <td>7</td>
+    <td>10</td>
+    <td>15</td>
+    <td>20</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>3★</td>
+    <td>3</td>
+    <td>5</td>
+    <td>7</td>
+    <td>10</td>
+    <td>15</td>
+    <td>20</td>
+    <td>30</td>
+    <td>40</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>4★</td>
+    <td>5</td>
+    <td>10</td>
+    <td>15</td>
+    <td>20</td>
+    <td>30</td>
+    <td>40</td>
+    <td>50</td>
+    <td>60</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>5★</td>
+    <td>20</td>
+    <td>30</td>
+    <td>40</td>
+    <td>50</td>
+    <td>60</td>
+    <td>70</td>
+    <td>80</td>
+    <td>90</td>
+    <td>100</td>
+  </tr>
+</table><br>			    
+			    
 <br>
 Also, if you use a previously awakened tool in a material consuming process (evolving, forging, awakening or selling), you'll get 10 Demon Tool Medals per awakening value (ex. if you use a rank E tool in a evolving process, you'll get 20 medals).<br>
 <br>
