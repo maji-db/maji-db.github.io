@@ -575,7 +575,7 @@ window.support=[
           "maxsp": "1400",
           "maxspd": "434",
           "skillname": "ATK DMG & Basic Attack DMG up",
-          "skill": "Increases ATK Damage of equipped unit by 47% and Basic Attack DMG of all allies by 24%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after an ally dies <hz>Chance:</hz> 100%",
+          "skill": "Equipped unit ATK DMG +47% and Basic Attack DMG of all allies +24%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after an ally dies <hz>Chance:</hz> 100%",
           "skillimg": "ATKDMGup",
      },
      {
@@ -597,7 +597,7 @@ window.support=[
           "maxsp": "1368",
           "maxspd": "412",
           "skillname": "Revive & Basic Attack taken DMG down",
-          "skill": "Revives equipped unit with 40% HP and decreases dmg taken by basic attacks to all allies by 24%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> upon death <hz>Chance:</hz> 100%/1 time",
+          "skill": "Revives equipped unit with 40% HP and all allies basic attack dmg taken -24%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> upon death <hz>Chance:</hz> 100%/1 time",
           "skillimg": "REVIVE",
      },
      {
