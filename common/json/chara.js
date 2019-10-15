@@ -2527,7 +2527,7 @@ window.chara=[
           "rank": "G"
 },
     {
-          "id": "10219",
+          "id": "10220",
           "name": "Karasu, Undying King Costume",
           "type": "heart",
           "class": "SP",
