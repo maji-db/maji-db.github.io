@@ -1273,7 +1273,7 @@ window.chara=[
           "autoimg2": "PARAresist",
           "autoname3": "Destroying Offense",
           "auto3": "Increases own ATK by 100%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> 2 turns after the start of the WAVE <hz>Chance:</hz> 100%",
-          "autoimg3": "BARRIEReffect",
+          "autoimg3": "ATKup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg4": "DMGup",
