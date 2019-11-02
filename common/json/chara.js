@@ -5558,7 +5558,7 @@ window.chara=[
           "maxspd": "",
           "skill1img": "100515",
           "skill1name": "Machine-Gun Fire",
-          "skill1": "Deals 85% SP to target row with 100% chance to reduce Stun Resistance by 100% for 3 turns,
+          "skill1": "Deals 85% SP to target row with 100% chance to reduce Stun Resistance by 100% for 3 turns",
           "skill1cd":  "125",
           "skill2img": "100516",
           "skill2name": "Bombing Request",
