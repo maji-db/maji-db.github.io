@@ -1317,7 +1317,7 @@ window.chara=[
           "auto2": "Increases Resistance against Silence status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "SILENCEresist",
           "autoname3": "Dimension Twinkling Sword",
-          "auto3": "Increases damage by 40% & gives 20% ATK+SP offset effect to all allies. Own dmg taken -50%<br><hz>Duration:</hz> ?? turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
+          "auto3": "Damage +40%, ATK&SP offset effect +20% to all allies. Own dmg taken -50%<br><hz>Duration:</hz> ?? turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
           "autoimg3": "DMGup",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
