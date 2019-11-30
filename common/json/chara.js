@@ -1632,7 +1632,7 @@ window.chara=[
           "auto2": "Increases Resistance against Burn status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "BURNresist",
           "autoname3": "Young Figthing Spirit",
-          "auto3": "Own Body damage +50% & Own Basic Attack number +1<br><hz>Duration:</hz> 2 turns/1 turn <hz>Condition:</hz> 1 turn after the start of the WAVE <hz>Chance:</hz> 100%/3 times",
+          "auto3": "Own Body damage +50% & Own Basic Attack number +1<br><hz>Duration:</hz> 2/1 turn <hz>Condition:</hz> 1 turn after the start of the WAVE <hz>Chance:</hz> 100%/3 times",
           "autoimg3": "BODYdmg",
           "autoname4": "Damage up (B)",
           "auto4": "Increases Damage given by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
