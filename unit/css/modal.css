@@ -182,23 +182,16 @@
 /* ----------- IMG PNG ------------- */
 
 	.modal-body .base-unit-view .img-unit {
-		width: 250px;
-		height: 370px;
-		border: 1px solid #AB2375;
 		outline: 3px solid #000;
 		background-color: #000;
 		position: relative;
+		padding: 5px;
 		overflow: hidden;
-		margin-left:20px;
 	}
 
 	.modal-body .base-unit-view .img-unit img {
-		position: absolute;
-  		width:1000px;
- 		top: -316px;
- 		left: -376px;
+		width: 100%;
  		margin: auto;
-		opacity: 50%;
 	}
 
 	.modal-body .base-unit-view .base-tables {
@@ -345,6 +338,26 @@
 		text-shadow:2px 2px #000;
 	}
 
+	.modal-body .base-unit-view .base-tables #buff{
+		color: springgreen;
+		font-size: 12px;
+		text-shadow: 2px 2px #000;
+	}
+	.modal-body .base-unit-view .base-tables #debuff {
+		color: red;
+		font-size: 12px;
+		text-shadow: 2px 2px #000;
+	}
+	.modal-body .base-unit-view .base-tables #dsp {
+		color: dodgerblue;
+		font-size: 12px;
+		text-shadow: 2px 2px #000;
+	}
+	.modal-body .base-unit-view .base-tables #datk {
+		color: gold;
+		font-size: 12px;
+		text-shadow: 2px 2px #000;
+	}
 /* ----------- AUTO SKILL TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-ability {
