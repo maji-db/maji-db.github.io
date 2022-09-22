@@ -3,7 +3,7 @@
 	function _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd){
 		//Create Entries in the Table
 		var model = '<tr class="clickable" data-toggle="modal" data-target="#newModal">'
-					+'		<td class="text-center"><img id="icon-table" src="../common/assets/thumb/ch_icon_' + id + '.png" height="75px" width="75px" /><div style="display:none">' + id + '</td>'
+					+'		<td class="text-center"><img id="icon-table" src="../common/assets/thumb/ch_icon_' + id + '.png" height="75px" width="75px" /><div>' + id*10 + '</td>'
 					+'		<td class="text-left"><a href= "view/' + id + '" data-toggle="modal" data-target="#newModal"><strong>' + name + '</a></td>'
 					+'		<td class="text-center"><img id="icon-table" src="../common/assets/type/' + type + '.png"height="50px" width="50px" /><div style="display:none">' + type + '</td>'
 					+'		<td class="text-center">' + cclass + '</td>'
@@ -13,11 +13,13 @@
 					+'		<td class="text-center">' + atk + '</td>'
 					+'		<td class="text-center">' + def + '</td>'
 					+'		<td class="text-center">' + sp + '</td>'
-					+'		<td class="text-center">' + spd + '</td>'																																											
-					+'</tr>';
+					+ '		<td class="text-center">' + spd + '</td>'
+
+			+ '</tr>';
+		console.log(model)
+
 		return model;
 	}
-	
 	$(document).ready(function(){
 		
 		// --------------------------------------------- CARDS
@@ -52,11 +54,12 @@
 			sp = unit["sp"];			
 			def = unit["def"];
 			spd = unit["spd"];
-
+			
 			//Creates Entry
 			if(units.indexOf(chara[0]) == -1){ // Verifies Character ID
 				units.push(unit[0]); // Adds Character in the array			
 				content += _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd); // Add Character to content
+				
 			}
 		}
 		
@@ -111,20 +114,17 @@
 			if (id == window.chara[i]['id']) {
 				$('#icon-unit').attr('src', '../common/assets/thumb/ch_icon_' + id + '.png');
 				$('#name-unit').text(window.chara[i]['name']);
-				var artid = 0
 				//Latent Awakened Units
 				if (id > 11000 && id < 13000) {
-					artid = id - 1000;
+					artid = (id - 1000);
 				}
 				//6* Units
 				else if (id > 13000){
-					artid = id - 3000;
+					artid = (id - 3000);
 				}
 				else {
 					artid = id;
 				}
-				
-	
 				
 				$('#card-art').attr('src', '../common/assets/full/ch_' + artid + '.png');
 				$('#leadname-five').text(window.chara[i]['lead']); 
@@ -135,13 +135,8 @@
 				var autoimg = '';
 				var x;
 				var autoSkillCount;
-				if (window.chara[i]['rare'] == 6) {
-					autoSkillCount = 9
-				}
-				else {
-					autoSkillCount = 8
-				}
-				for (x = 1; x <= autoSkillCount; x++){
+				
+				for (x = 1; x <= 5; x++){
 					 auto = 'auto' + x;
                     			autoname = 'autoname' + x;
                     			autoimg = 'autoimg' + x;
