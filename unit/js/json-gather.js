@@ -108,10 +108,25 @@
 	function _buildCardModal(id, thumb, cards, cid){
 		console.log(cid);
 		for(var i in window.chara){
-			if(id == window.chara[i]['id']){
-				$('#icon-unit').attr('src', '../common/assets/thumb/ch_icon_' + id + '.png'); 
+			if (id == window.chara[i]['id']) {
+				$('#icon-unit').attr('src', '../common/assets/thumb/ch_icon_' + id + '.png');
 				$('#name-unit').text(window.chara[i]['name']);
-				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png');	
+				var artid = 0
+				//Latent Awakened Units
+				if (id > 11000 && id < 13000) {
+					artid = id - 1000;
+				}
+				//6* Units
+				else if (id > 13000){
+					artid = id - 3000;
+				}
+				else {
+					artid = id;
+				}
+				
+	
+				
+				$('#card-art').attr('src', '../common/assets/full/ch_' + artid + '.png');
 				$('#leadname-five').text(window.chara[i]['lead']); 
 
 				var autoskill = '';
