@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\unit",
-    "\\unit\\js"
+    "\\common",
+    "\\common\\json",
+    "\\unit"
   ],
   "PreviewInSolutionExplorer": false
 }

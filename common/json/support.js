@@ -7,7 +7,7 @@ window.support=[
      {
           "id": "20001",
           "name": "Keiko Yukimura, Goddess of Victory",
-          "type": "heart",
+          "type": "red",
           "class": "ATK",
           "rare": "5",
           "power": "1012",
@@ -29,7 +29,7 @@ window.support=[
      {
           "id": "20002",
           "name": "Botan, Spiritual Guide",
-          "type": "yang",
+          "type": "light",
           "class": "SP",
           "rare": "5",
           "power": "1011",
@@ -52,7 +52,7 @@ window.support=[
      {
           "id": "20013",
           "name": "Great King Enma, Spirit World Ruler",
-          "type": "yin",
+          "type": "dark",
           "class": "ATK",
           "rare": "5",
           "power": "1011",
@@ -75,7 +75,7 @@ window.support=[
      {
           "id": "20016",
           "name": "Yukina, Dearly Prayer",
-          "type": "body",
+          "type": "blue",
           "class": "DEF",
           "rare": "5",
           "power": "1011",
@@ -97,7 +97,7 @@ window.support=[
      {
           "id": "20019",
           "name": "Sakyo, A Game of Aesthetics",
-          "type": "yin",
+          "type": "dark",
           "class": "SP",
           "rare": "5",
           "power": "1012",
@@ -119,7 +119,7 @@ window.support=[
      {
           "id": "20020",
           "name": "Koto, Fiery Commentary",
-          "type": "body",
+          "type": "blue",
           "class": "SP",
           "rare": "5",
           "power": "1005",
@@ -141,7 +141,7 @@ window.support=[
      {
           "id": "20021",
           "name": "Juri, Sincere Referee",
-          "type": "dex",
+          "type": "green",
           "class": "ATK",
           "rare": "5",
           "power": "1016",
@@ -163,7 +163,7 @@ window.support=[
      {
           "id": "20022",
           "name": "Ruka, Barrier Practitioner",
-          "type": "yin",
+          "type": "dark",
           "class": "ATK",
           "rare": "5",
           "power": "1011",
@@ -185,7 +185,7 @@ window.support=[
      {
           "id": "20024",
           "name": "Koenma (Youth), Spirit World Royalty",
-          "type": "dex",
+          "type": "green",
           "class": "DEF",
           "rare": "5",
           "power": "1012",
@@ -207,7 +207,7 @@ window.support=[
      {
           "id": "20041",
           "name": "Keiko Yukimura, Promise of Victory",
-          "type": "yang",
+          "type": "light",
           "class": "SP",
           "rare": "5",
           "power": "1066",
@@ -229,7 +229,7 @@ window.support=[
      {
           "id": "20042",
           "name": "Ruka, Sealing Cursed Barrier",
-          "type": "yang",
+          "type": "light",
           "class": "SP",
           "rare": "5",
           "power": "1061",
@@ -251,7 +251,7 @@ window.support=[
      {
           "id": "20050",
           "name": "Botan, Flower Kimono",
-          "type": "yang",
+          "type": "light",
           "class": "ATK",
           "rare": "5",
           "power": "1018",
@@ -273,7 +273,7 @@ window.support=[
      {
           "id": "20055",
           "name": "Puu, Blue Feathered Spirit Beast",
-          "type": "body",
+          "type": "blue",
           "class": "SP",
           "rare": "5",
           "power": "1064",
@@ -295,7 +295,7 @@ window.support=[
      {
           "id": "20063",
           "name": "Hina, Cursed Child's Mother",
-          "type": "yin",
+          "type": "dark",
           "class": "SP",
           "rare": "5",
           "power": "1015",
@@ -317,7 +317,7 @@ window.support=[
      {
           "id": "20064",
           "name": "Rui, Regretful Koorime",
-          "type": "dex",
+          "type": "green",
           "class": "ATK",
           "rare": "5",
           "power": "1062",
@@ -339,7 +339,7 @@ window.support=[
      {
           "id": "20095",
           "name": "Keiko Yukimura, Holy Night Lovely Lady",
-          "type": "heart",
+          "type": "red",
           "class": "SP",
           "rare": "5",
           "power": "1008",
@@ -361,7 +361,7 @@ window.support=[
      {
           "id": "20096",
           "name": "Yukina, Holy Night Snow Lady",
-          "type": "dex",
+          "type": "green",
           "class": "DEF",
           "rare": "5",
           "power": "1015",
@@ -383,7 +383,7 @@ window.support=[
      {
           "id": "20098",
           "name": "Maya Kitajima, Faint Love Concept",
-          "type": "yang",
+          "type": "light",
           "class": "DEF",
           "rare": "5",
           "power": "1018",
@@ -405,7 +405,7 @@ window.support=[
      {
           "id": "20104",
           "name": "Yusuke Urameshi, Wedding White Clothing",
-          "type": "body",
+          "type": "blue",
           "class": "ATK",
           "rare": "5",
           "power": "1016",
@@ -420,14 +420,14 @@ window.support=[
           "maxdef": "2484",
           "maxsp": "1412",
           "maxspd": "450",
-          "skillname": "Body Damage up",
-          "skill": "Increases Body Damage of equipped column by 22%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
-          "skillimg": "BODYdmg",
+          "skillname": "blue Damage up",
+          "skill": "Increases blue Damage of equipped column by 22%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 100%",
+          "skillimg": "bluedmg",
      },
      {
           "id": "20105",
           "name": "Kurama, Formal White Splendor",
-          "type": "heart",
+          "type": "red",
           "class": "DEF",
           "rare": "5",
           "power": "1011",
@@ -449,7 +449,7 @@ window.support=[
      {
           "id": "20106",
           "name": "Botan, Summer Guide",
-          "type": "body",
+          "type": "blue",
           "class": "SP",
           "rare": "5",
           "power": "1013",
@@ -471,7 +471,7 @@ window.support=[
      {
           "id": "20107",
           "name": "Shizuru Kuwabara, Summer Elder Sister",
-          "type": "yin",
+          "type": "dark",
           "class": "ATK",
           "rare": "5",
           "power": "1011",
@@ -493,7 +493,7 @@ window.support=[
      {
           "id": "20114",
           "name": "Yusuke & Kuwabara, Battle Comrades",
-          "type": "body",
+          "type": "blue",
           "class": "ATK",
           "rare": "5",
           "power": "1024",
@@ -515,7 +515,7 @@ window.support=[
      {
           "id": "20115",
           "name": "Kurama & Hiei, Shadow Flower",
-          "type": "heart",
+          "type": "red",
           "class": "SP",
           "rare": "5",
           "power": "1020",
@@ -537,7 +537,7 @@ window.support=[
      {
           "id": "20122",
           "name": "Hiei, Cursed Child of Flames",
-          "type": "yin",
+          "type": "dark",
           "class": "SP",
           "rare": "5",
           "power": "1062",
@@ -559,7 +559,7 @@ window.support=[
      {
           "id": "20127",
           "name": "Yukina, Innocent Smile",
-          "type": "dex",
+          "type": "green",
           "class": "SP",
           "rare": "5",
           "power": "1008",
@@ -581,7 +581,7 @@ window.support=[
      {
           "id": "20135",
           "name": "Hiei, Withered Corpse Costume",
-          "type": "heart",
+          "type": "red",
           "class": "ATK",
           "rare": "5",
           "power": "1061",
@@ -603,7 +603,7 @@ window.support=[
      {
           "id": "20136",
           "name": "Yukina, Saint Costume",
-          "type": "yin",
+          "type": "dark",
           "class": "DEF",
           "rare": "5",
           "power": "1062",
@@ -625,7 +625,7 @@ window.support=[
      {
           "id": "20137",
           "name": "Botan, Holy Night Sparkling Lady",
-          "type": "body",
+          "type": "blue",
           "class": "DEF",
           "rare": "5",
           "power": "1063",
@@ -647,7 +647,7 @@ window.support=[
      {
           "id": "20138",
           "name": "Juri, Holy Night Thoughtful Lady",
-          "type": "heart",
+          "type": "red",
           "class": "SP",
           "rare": "5",
           "power": "1063",
@@ -669,7 +669,7 @@ window.support=[
      {
           "id": "20139",
           "name": "Koto, Holy Night Fiery Lady",
-          "type": "dex",
+          "type": "green",
           "class": "ATK",
           "rare": "5",
           "power": "1064",
@@ -691,7 +691,7 @@ window.support=[
      {
           "id": "20145",
           "name": "Botan, Relaxing Guide",
-          "type": "dex",
+          "type": "green",
           "class": "SP",
           "rare": "5",
           "power": "1065",
@@ -713,7 +713,7 @@ window.support=[
      {
           "id": "20146",
           "name": "Keiko Yukimura, Relaxing Maiden",
-          "type": "heart",
+          "type": "red",
           "class": "DEF",
           "rare": "5",
           "power": "1063",
@@ -735,7 +735,7 @@ window.support=[
     {
           "id": "20148",
           "name": "Shizuru Kuwabara, Relaxing Elder Sister",
-          "type": "heart",
+          "type": "red",
           "class": "SP",
           "rare": "5",
           "power": "1064",
@@ -757,7 +757,7 @@ window.support=[
      {
           "id": "20150",
           "name": "Hiei, Untalkative Waiter",
-          "type": "yin",
+          "type": "dark",
           "class": "SP",
           "rare": "5",
           "power": "536",
@@ -779,7 +779,7 @@ window.support=[
      {
           "id": "20151",
           "name": "Kurama, Beautiful Waiter",
-          "type": "heart",
+          "type": "red",
           "class": "ATK",
           "rare": "5",
           "power": "536",
@@ -801,7 +801,7 @@ window.support=[
      {
           "id": "20149",
           "name": "Yusuke Urameshi, Lively Waiter",
-          "type": "dex",
+          "type": "green",
           "class": "DEF",
           "rare": "5",
           "power": "536",
@@ -823,7 +823,7 @@ window.support=[
      {
           "id": "20152",
           "name": "Kazuma Kuwabara, Passionate Waiter",
-          "type": "body",
+          "type": "blue",
           "class": "DEF",
           "rare": "5",
           "power": "534",
@@ -850,7 +850,7 @@ window.support=[
      {
           "id": "20003",
           "name": "Koenma, Enma's Son",
-          "type": "body",
+          "type": "blue",
           "class": "ATK",
           "rare": "4",
           "power": "491",
@@ -873,7 +873,7 @@ window.support=[
      {
           "id": "20006",
           "name": "Atsuko Urameshi, Bad Housewife",
-          "type": "heart",
+          "type": "red",
           "class": "ATK",
           "rare": "4",
           "power": "491",
@@ -896,7 +896,7 @@ window.support=[
      {
           "id": "20012",
           "name": "Ayame, Secret Feelings",
-          "type": "yin",
+          "type": "dark",
           "class": "DEF",
           "rare": "4",
           "power": "491",
@@ -919,7 +919,7 @@ window.support=[
      {
           "id": "20014",
           "name": "Shizuru Kuwabara, Spirit Sensing Elder Sister",
-          "type": "dex",
+          "type": "green",
           "class": "SP",
           "rare": "4",
           "power": "491",
@@ -942,7 +942,7 @@ window.support=[
      {
           "id": "20051",
           "name": "Puu, Words of the Master",
-          "type": "yang",
+          "type": "light",
           "class": "DEF",
           "rare": "4",
           "power": "491",
@@ -965,7 +965,7 @@ window.support=[
      {
           "id": "20094",
           "name": "Botan, Amulet Costume",
-          "type": "dex",
+          "type": "green",
           "class": "DEF",
           "rare": "4",
           "power": "411",
@@ -987,7 +987,7 @@ window.support=[
      {
           "id": "20097",
           "name": "Ruka, Holy Night Charming Lady",
-          "type": "yin",
+          "type": "dark",
           "class": "DEF",
           "rare": "4",
           "power": "411",
@@ -1009,7 +1009,7 @@ window.support=[
      {
           "id": "20099",
           "name": "Toguro, Strength Seeker",
-          "type": "heart",
+          "type": "red",
           "class": "ATK",
           "rare": "4",
           "power": "413",
@@ -1031,7 +1031,7 @@ window.support=[
      {
           "id": "20100",
           "name": "Genkai, Brilliant Spirit Seeker",
-          "type": "body",
+          "type": "blue",
           "class": "SP",
           "rare": "4",
           "power": "410",
@@ -1053,7 +1053,7 @@ window.support=[
      {
           "id": "20108",
           "name": "Yukina, Summer Snow Lady",
-          "type": "yang",
+          "type": "light",
           "class": "DEF",
           "rare": "4",
           "power": "413",
@@ -1075,7 +1075,7 @@ window.support=[
      {
           "id": "20147",
           "name": "Atsuko Urameshi, Relaxing Housewife",
-          "type": "body",
+          "type": "blue",
           "class": "ATK",
           "rare": "4",
           "power": "415",
@@ -1102,7 +1102,7 @@ window.support=[
      {
           "id": "20004",
           "name": "Sayaka, Spirit World Agent",
-          "type": "yang",
+          "type": "light",
           "class": "DEF",
           "rare": "3",
           "power": "372",
@@ -1125,7 +1125,7 @@ window.support=[
      {
           "id": "20011",
           "name": "George Saotome, Honest Assistant",
-          "type": "body",
+          "type": "blue",
           "class": "SP",
           "rare": "3",
           "power": "371",
@@ -1148,7 +1148,7 @@ window.support=[
      {
           "id": "20017",
           "name": "Puu, Spirit Beast",
-          "type": "heart",
+          "type": "red",
           "class": "DEF",
           "rare": "3",
           "power": "371",
@@ -1171,7 +1171,7 @@ window.support=[
      {
           "id": "20026",
           "name": "Shiori Minamino, Gentle Mother",
-          "type": "dex",
+          "type": "green",
           "class": "DEF",
           "rare": "3",
           "power": "372",
@@ -1194,7 +1194,7 @@ window.support=[
      {
           "id": "20054",
           "name": "Botan, Spirit Detective Assistant",
-          "type": "yin",
+          "type": "dark",
           "class": "DEF",
           "rare": "3",
           "power": "373",
@@ -1217,7 +1217,7 @@ window.support=[
      {
           "id": "20058",
           "name": "Hagiri's Younger Sister, Psychometry",
-          "type": "yin",
+          "type": "dark",
           "class": "ATK",
           "rare": "3",
           "power": "371",
@@ -1240,7 +1240,7 @@ window.support=[
      {
           "id": "20102",
           "name": "Masaru, Energetic Boy",
-          "type": "body",
+          "type": "blue",
           "class": "ATK",
           "rare": "3",
           "power": "374",
@@ -1263,7 +1263,7 @@ window.support=[
      {
           "id": "20103",
           "name": "Masaru's Mom, Kind Sincerity",
-          "type": "heart",
+          "type": "red",
           "class": "SP",
           "rare": "3",
           "power": "369",
@@ -1286,7 +1286,7 @@ window.support=[
      {
           "id": "20112",
           "name": "Yusuke Urameshi, Little Promise",
-          "type": "dex",
+          "type": "green",
           "class": "ATK",
           "rare": "3",
           "power": "373",
@@ -1309,7 +1309,7 @@ window.support=[
      {
           "id": "20113",
           "name": "Keiko Yukimura, Little Wish",
-          "type": "yang",
+          "type": "light",
           "class": "SP",
           "rare": "3",
           "power": "371",
@@ -1331,7 +1331,7 @@ window.support=[
      {
           "id": "20144",
           "name": "Beautiful Suzuki, Rainbow-Colored Legend",
-          "type": "dex",
+          "type": "green",
           "class": "SP",
           "rare": "3",
           "power": "373",
@@ -1358,7 +1358,7 @@ window.support=[
      {
           "id": "20018",
           "name": "Muguru, Bird Demon",
-          "type": "heart",
+          "type": "red",
           "class": "SP",
           "rare": "2",
           "power": "292",
@@ -1381,7 +1381,7 @@ window.support=[
      {
           "id": "20029",
           "name": "Okubo, Kuwabara's Underling",
-          "type": "yin",
+          "type": "dark",
           "class": "DEF",
           "rare": "2",
           "power": "291",
@@ -1404,7 +1404,7 @@ window.support=[
      {
           "id": "20030",
           "name": "Kirishima, Kuwabara's Underling",
-          "type": "dex",
+          "type": "green",
           "class": "ATK",
           "rare": "2",
           "power": "291",
@@ -1427,7 +1427,7 @@ window.support=[
      {
           "id": "20031",
           "name": "Sawamura, Kuwabara's Underling",
-          "type": "yang",
+          "type": "light",
           "class": "DEF",
           "rare": "2",
           "power": "292",
@@ -1449,7 +1449,7 @@ window.support=[
      {
           "id": "20044",
           "name": "Seller Duff, Merchant",
-          "type": "yang",
+          "type": "light",
           "class": "ATK",
           "rare": "2",
           "power": "290",
@@ -1472,7 +1472,7 @@ window.support=[
      {
           "id": "20045",
           "name": "Ship's Captain, Guide",
-          "type": "body",
+          "type": "blue",
           "class": "ATK",
           "rare": "2",
           "power": "291",
@@ -1495,7 +1495,7 @@ window.support=[
      {
           "id": "20101",
           "name": "Slime Youkai, Verdict Apparition",
-          "type": "heart",
+          "type": "red",
           "class": "DEF",
           "rare": "2",
           "power": "291",
@@ -1518,7 +1518,7 @@ window.support=[
      {
           "id": "20109",
           "name": "Imp, Evil Whisperer",
-          "type": "dex",
+          "type": "green",
           "class": "SP",
           "rare": "2",
           "power": "286",
@@ -1541,7 +1541,7 @@ window.support=[
      {
           "id": "20110",
           "name": "Familiar, Servant of Shadows",
-          "type": "body",
+          "type": "blue",
           "class": "SP",
           "rare": "2",
           "power": "290",
@@ -1564,7 +1564,7 @@ window.support=[
      {
           "id": "20111",
           "name": "Dr.Ichigaki, Evil Scientist",
-          "type": "yin",
+          "type": "dark",
           "class": "DEF",
           "rare": "2",
           "power": "291",
@@ -1591,7 +1591,7 @@ window.support=[
      {
           "id": "20005",
           "name": "Takenaka, Model Teacher",
-          "type": "heart",
+          "type": "red",
           "class": "ATK",
           "rare": "1",
           "power": "252",
@@ -1614,7 +1614,7 @@ window.support=[
      {
           "id": "20015",
           "name": "Eikichi, Kuwabara's Best Friend",
-          "type": "yang",
+          "type": "light",
           "class": "ATK",
           "rare": "1",
           "power": "252",
@@ -1637,7 +1637,7 @@ window.support=[
      {
           "id": "20025",
           "name": "Little Girl, The Saved One",
-          "type": "body",
+          "type": "blue",
           "class": "DEF",
           "rare": "1",
           "power": "251",
@@ -1660,7 +1660,7 @@ window.support=[
      {
           "id": "20027",
           "name": "Iwamoto, Bad Teacher",
-          "type": "yin",
+          "type": "dark",
           "class": "SP",
           "rare": "1",
           "power": "251",
@@ -1683,7 +1683,7 @@ window.support=[
      {
           "id": "20028",
           "name": "Akashi, Minion",
-          "type": "dex",
+          "type": "green",
           "class": "DEF",
           "rare": "1",
           "power": "251",

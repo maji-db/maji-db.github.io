@@ -116,11 +116,11 @@
 				$('#name-unit').text(window.chara[i]['name']);
 				//Latent Awakened Units
 				if (id > 11000 && id < 13000) {
-					artid = (id - 1000);
+					artid = id - 1000;
 				}
 				//6* Units
 				else if (id > 13000){
-					artid = (id - 3000);
+					artid = id - 3000;
 				}
 				else {
 					artid = id;
@@ -135,8 +135,13 @@
 				var autoimg = '';
 				var x;
 				var autoSkillCount;
-				
-				for (x = 1; x <= 5; x++){
+				if (window.chara[i]['rare'] == 6) {
+					autoSkillCount = 9;
+				}
+				else {
+					autoSkillCount = 8
+                }
+				for (x = 1; x <= autoSkillCount; x++){
 					 auto = 'auto' + x;
                     			autoname = 'autoname' + x;
                     			autoimg = 'autoimg' + x;
